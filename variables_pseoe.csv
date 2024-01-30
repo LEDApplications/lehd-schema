@@ -1,0 +1,16 @@
+Indicator Variable,Alternate Name,Status Flag,Indicator Name,Description,Units,Concept,Base
+y1_p25_earnings,y1_p25_earnings,status_y1_earnings,Earnings 25th Percentile in Year 1,Earnings 25th Percentile in Year 1 (2020 Dollars),Dollars,Earnings,1
+y1_p50_earnings,y1_p50_earnings,status_y1_earnings,Earnings 50th Percentile in Year 1,Earnings 50th Percentile in Year 1 (2020 Dollars),Dollars,Earnings,1
+y1_p75_earnings,y1_p75_earnings,status_y1_earnings,Earnings 75th Percentile in Year 1,Earnings 75th Percentile in Year 1 (2020 Dollars),Dollars,Earnings,1
+y1_grads_earn,y1_grads_earn,status_y1_grads_earn,Graduates Employed in Year 1,Count of Employed Graduates in Year 1,Count,Employment,1
+y5_p25_earnings,y5_p25_earnings,status_y5_earnings,Earnings 25th Percentile in Year 5,Earnings 25th Percentile in Year 5 (2020 Dollars),Dollars,Earnings,1
+y5_p50_earnings,y5_p50_earnings,status_y5_earnings,Earnings 50th Percentile in Year 5,Earnings 50th Percentile in Year 5 (2020 Dollars),Dollars,Earnings,1
+y5_p75_earnings,y5_p75_earnings,status_y5_earnings,Earnings 75th Percentile in Year 5,Earnings 75th Percentile in Year 5 (2020 Dollars),Dollars,Earnings,1
+y5_grads_earn,y5_grads_earn,status_y5_grads_earn,Graduates Employed in Year 5,Count of Employed Graduates in Year 5,Count,Employment,1
+y10_p25_earnings,y10_p25_earnings,status_y10_earnings,Earnings 25th Percentile in Year 10,Earnings 25th Percentile in Year 10 (2020 Dollars),Dollars,Earnings,1
+y10_p50_earnings,y10_p50_earnings,status_y10_earnings,Earnings 50th Percentile in Year 10,Earnings 50th Percentile in Year 10 (2020 Dollars),Dollars,Earnings,1
+y10_p75_earnings,y10_p75_earnings,status_y10_earnings,Earnings 75th Percentile in Year 10,Earnings 75th Percentile in Year 10 (2020 Dollars),Dollars,Earnings,1
+y10_grads_earn,y10_grads_earn,status_y10_grads_earn,Graduates Employed in Year 10,Count of Employed Graduates in Year 10,Count,Employment,1
+y1_ipeds_count,y1_ipeds_count,status_y1_ipeds_count,IPEDS Graduates for Year 1,Count of IPEDS Reported Graduates of Programs Included in Year 1 Earnings,Count,Graduates,1
+y5_ipeds_count,y5_ipeds_count,status_y5_ipeds_count,IPEDS Graduates for Year 5,Count of IPEDS Reported Graduates of Programs Included in Year 5 Earnings,Count,Graduates,1
+y10_ipeds_count,y10_ipeds_count,status_y10_ipeds_count,IPEDS Graduates for Year 10,Count of IPEDS Reported Graduates of Programs Included in Year 10 Earnings,Count,Graduates,1
