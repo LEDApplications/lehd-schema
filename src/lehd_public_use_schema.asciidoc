@@ -502,7 +502,7 @@ include::label_inst_level.csv[]
 ( link:label_institution.csv[] )
 
 Institution identifiers are sourced from the
-https://www2.ed.gov/offices/OSFAP/PEPS/dataextracts.html[U.S. Department of Education, Federal Student Aid office].
+https://fsapartners.ed.gov/additional-resources/reports/weekly-school-file[U.S. Department of Education, Federal Student Aid office].
 This list has been supplemented with records for regional groupings of institutions (may be used in future PSEO tabulations).
 
 [%autowidth%header,format=csv,cols="^1,<4,^2,3*^1",separator=,]
@@ -571,7 +571,7 @@ When tabulating across all cohorts, the value *0000* will be used for grad_cohor
 ( link:label_geo_level.csv[] )
 
 Geography labels for data files are provided in separate files, by scope.Each file 'label_geography_SCOPE.csv' may contain one or more types of records as flagged by <<Geographic Levels,geo_level>>. For convenience, a composite file containing all geocodes is available as link:label_geography.csv[].
-The 2023 vintage of https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html[Census TIGER/Line geography] is used for all tabulations as of the R2024Q1 release.
+The 2024 vintage of https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html[Census TIGER/Line geography] is used for all tabulations as of the R2025Q1 release.
 
 Shapefiles are described in a link:lehd_shapefiles{ext-relative}[separate document].
 

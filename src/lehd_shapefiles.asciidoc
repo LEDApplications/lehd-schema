@@ -28,13 +28,13 @@ New TIGER/Line shapefiles are typically released by the Census Bureau's Geograph
 
 == Sources
 
-Files are derived from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html[TIGER/Line 2023 shapefiles]:
+Files are derived from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2024.html[TIGER/Line 2024 shapefiles]:
 
-* https://www2.census.gov/geo/tiger/TIGER2023/STATE/[tl_2023_us_state]
-* https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/[tl_2023_us_county]
-* https://www2.census.gov/geo/tiger/TIGER2023/CBSA/[tl_2023_us_cbsa]
-* https://www2.census.gov/geo/tiger/TIGER2023/PLACE/[tl_2023_(ST)_place]  (for creation of WIA/WIB shapefile)
-* https://www2.census.gov/geo/tiger/TIGER2023/COUSUB/[tl_2023_(ST)_cousub] (for creation of WIA/WIB shapefile)
+* https://www2.census.gov/geo/tiger/TIGER2024/STATE/[tl_2024_us_state]
+* https://www2.census.gov/geo/tiger/TIGER2024/COUNTY/[tl_2024_us_county]
+* https://www2.census.gov/geo/tiger/TIGER2024/CBSA/[tl_2024_us_cbsa]
+* https://www2.census.gov/geo/tiger/TIGER2024/PLACE/[tl_2024_(ST)_place]  (for creation of WIA/WIB shapefile)
+* https://www2.census.gov/geo/tiger/TIGER2024/COUSUB/[tl_2024_(ST)_cousub] (for creation of WIA/WIB shapefile)
 
 == Transformations
 
