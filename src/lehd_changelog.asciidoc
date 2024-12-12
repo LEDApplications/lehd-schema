@@ -18,7 +18,7 @@ Please write us at link:mailto:ces.qwi.feedback@census.gov?subject=LEHD_Schema[c
 == V4.12.0
 
 - Updated to 2024 geography - affects shapefiles, label files unchanged from 2023
-- Changed earnings year to 2021 dollars
+- Changed earnings year to 2022 dollars
 
 == V4.11.2
 
