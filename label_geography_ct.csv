@@ -1,0 +1,24 @@
+geography,label,geo_level
+09,"Connecticut",S
+09110,"Capitol, CT",C
+09120,"Greater Bridgeport, CT",C
+09130,"Lower Connecticut River Valley, CT",C
+09140,"Naugatuck Valley, CT",C
+09150,"Northeastern Connecticut, CT",C
+09160,"Northwest Hills, CT",C
+09170,"South Central Connecticut, CT",C
+09180,"Southeastern Connecticut, CT",C
+09190,"Western Connecticut, CT",C
+0914860,"Bridgeport-Stamford-Danbury, CT",M
+0925540,"Hartford-West Hartford-East Hartford, CT",M
+0935300,"New Haven, CT",M
+0935980,"Norwich-New London-Willimantic, CT",M
+0939480,"Putnam, CT",M
+0945860,"Torrington, CT",M
+0947930,"Waterbury-Shelton, CT",M
+0999999,"Nonmetropolitan, nonmicropolitan, CT",M
+09090001,"Eastern WIA",W
+09090002,"North Central WIA",W
+09090003,"Northwest WIA",W
+09090004,"South Central WIA",W
+09090005,"Southwest WIA",W
