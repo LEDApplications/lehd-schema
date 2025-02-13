@@ -9,7 +9,7 @@ geography     C              8       Group: Geography code
 ind_level     C              1       Group: Industry level of aggregation
 industry      C              5       Group: Industry code
 ownercode     C              3       Group: Ownership group code
-sex           C              1       Group: Gender code
+sex           C              1       Group: Sex code
 agegrp        C              3       Group: Age group code (WIA)
 race          C              2       Group: race
 ethnicity     C              2       Group: ethnicity
