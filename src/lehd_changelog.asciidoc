@@ -15,6 +15,12 @@ Feedback is welcome.
 Please write us at link:mailto:ces.qwi.feedback@census.gov?subject=LEHD_Schema[ces.qwi.feedback@census.gov].
 ==============================================
 
+== V4.13.0
+
+- Added agg_level variable to QWI, added QWI aggregation levels
+- Added state level QWI tabulations on NAICS5/NAICS6
+- Changed earnings year to 2023 dollars (PSEO)
+
 == V4.12.0
 
 - Updated to 2024 geography - affects shapefiles, label files unchanged from 2023
