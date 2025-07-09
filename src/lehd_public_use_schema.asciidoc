@@ -712,11 +712,12 @@ include::variables_agg_level.csv[]
 
 The characteristics available on an aggregation level are repeated using a series of flags following the standard schema:
 
-- <<CIP Levels,cip_level>> - degree field reporting level of table
-- <<Institution Levels,inst_level>> - institution reporting level of table
-- <<Geographic Levels,geo_level>> - geographic level of table
-- <<ind_level,ind_level>> - industry level of table
-- by_ variables - flags indicating other dimensions reported, including ownership, demographics, firm age and size.
+* <<CIP Levels,cip_level>> - degree field reporting level of table
+* <<Institution Levels,inst_level>> - institution reporting level of table
+* <<Geographic Levels,geo_level>> - geographic level of table
+* <<ind_level,ind_level>> - industry level of table
+* Data product flags - indicators that aggregation level is included in a data product (*j2j*, *j2jr*, *j2jod*, *qwi*)
+* by_ variables - flags indicating other dimensions reported, including ownership, demographics, firm age and size.
 
 A shortened representation of the file is provided below, the complete file is available in the link above.
 
