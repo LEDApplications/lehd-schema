@@ -1,4 +1,4 @@
-agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_level,by_ownercode,by_sex,by_agegrp,by_race,by_ethnicity,by_education,by_firmage,by_firmsize,geo_level_orig,ind_level_orig,by_ownercode_orig,by_firmage_orig,by_firmsize_orig
+﻿agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_level,by_ownercode,by_sex,by_agegrp,by_race,by_ethnicity,by_education,by_firmage,by_firmsize,geo_level_orig,ind_level_orig,by_ownercode_orig,by_firmage_orig,by_firmsize_orig
 1,,,,1,1,1,0,N,A,0,0,0,0,0,0,0,0,N,A,0,0,0
 2,Sex,,,1,1,1,0,N,A,0,1,0,0,0,0,0,0,N,A,0,0,0
 3,Age,,,1,1,1,0,N,A,0,0,1,0,0,0,0,0,N,A,0,0,0
@@ -8,8 +8,35 @@ agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_
 13,Race * Ethnicity,,,1,1,1,0,N,A,0,0,0,1,1,0,0,0,N,A,0,0,0
 17,Education,,,1,1,1,0,N,A,0,0,0,0,0,1,0,0,N,A,0,0,0
 18,Sex * Education,,,1,1,1,0,N,A,0,1,0,0,0,1,0,0,N,A,0,0,0
+33,,Ownership,,0,0,0,1,N,A,1,0,0,0,0,0,0,0,N,A,0,0,0
+34,Sex,Ownership,,0,0,0,1,N,A,1,1,0,0,0,0,0,0,N,A,0,0,0
+35,Age,Ownership,,0,0,0,1,N,A,1,0,1,0,0,0,0,0,N,A,0,0,0
+36,Sex * Age,Ownership,,0,0,0,1,N,A,1,1,1,0,0,0,0,0,N,A,0,0,0
+37,Race,Ownership,,0,0,0,1,N,A,1,0,0,1,0,0,0,0,N,A,0,0,0
+41,Ethnicity,Ownership,,0,0,0,1,N,A,1,0,0,0,1,0,0,0,N,A,0,0,0
+45,Race * Ethnicity,Ownership,,0,0,0,1,N,A,1,0,0,1,1,0,0,0,N,A,0,0,0
+49,Education,Ownership,,0,0,0,1,N,A,1,0,0,0,0,1,0,0,N,A,0,0,0
+50,Sex * Education,Ownership,,0,0,0,1,N,A,1,1,0,0,0,1,0,0,N,A,0,0,0
 65,,Firm Age,,1,1,1,0,N,A,0,0,0,0,0,0,1,0,N,A,0,0,0
+97,,Ownership * Firm Age,,0,0,0,1,N,A,1,0,0,0,0,0,1,0,N,A,0,0,0
+98,Sex,Ownership * Firm Age,,0,0,0,1,N,A,1,1,0,0,0,0,1,0,N,A,0,0,0
+99,Age,Ownership * Firm Age,,0,0,0,1,N,A,1,0,1,0,0,0,1,0,N,A,0,0,0
+100,Sex * Age,Ownership * Firm Age,,0,0,0,1,N,A,1,1,1,0,0,0,1,0,N,A,0,0,0
+101,Race,Ownership * Firm Age,,0,0,0,1,N,A,1,0,0,1,0,0,1,0,N,A,0,0,0
+105,Ethnicity,Ownership * Firm Age,,0,0,0,1,N,A,1,0,0,0,1,0,1,0,N,A,0,0,0
+109,Race * Ethnicity,Ownership * Firm Age,,0,0,0,1,N,A,1,0,0,1,1,0,1,0,N,A,0,0,0
+113,Education,Ownership * Firm Age,,0,0,0,1,N,A,1,0,0,0,0,1,1,0,N,A,0,0,0
+114,Sex * Education,Ownership * Firm Age,,0,0,0,1,N,A,1,1,0,0,0,1,1,0,N,A,0,0,0
 129,,Firm Size,,1,1,1,0,N,A,0,0,0,0,0,0,0,1,N,A,0,0,0
+161,,Ownership * Firm Size,,0,0,0,1,N,A,1,0,0,0,0,0,0,1,N,A,0,0,0
+162,Sex,Ownership * Firm Size,,0,0,0,1,N,A,1,1,0,0,0,0,0,1,N,A,0,0,0
+163,Age,Ownership * Firm Size,,0,0,0,1,N,A,1,0,1,0,0,0,0,1,N,A,0,0,0
+164,Sex * Age,Ownership * Firm Size,,0,0,0,1,N,A,1,1,1,0,0,0,0,1,N,A,0,0,0
+165,Race,Ownership * Firm Size,,0,0,0,1,N,A,1,0,0,1,0,0,0,1,N,A,0,0,0
+169,Ethnicity,Ownership * Firm Size,,0,0,0,1,N,A,1,0,0,0,1,0,0,1,N,A,0,0,0
+173,Race * Ethnicity,Ownership * Firm Size,,0,0,0,1,N,A,1,0,0,1,1,0,0,1,N,A,0,0,0
+177,Education,Ownership * Firm Size,,0,0,0,1,N,A,1,0,0,0,0,1,0,1,N,A,0,0,0
+178,Sex * Education,Ownership * Firm Size,,0,0,0,1,N,A,1,1,0,0,0,1,0,1,N,A,0,0,0
 257,,NAICS Sector,,1,1,1,0,N,S,0,0,0,0,0,0,0,0,N,A,0,0,0
 258,Sex,NAICS Sector,,1,1,1,0,N,S,0,1,0,0,0,0,0,0,N,A,0,0,0
 259,Age,NAICS Sector,,1,1,1,0,N,S,0,0,1,0,0,0,0,0,N,A,0,0,0
@@ -19,32 +46,292 @@ agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_
 269,Race * Ethnicity,NAICS Sector,,1,1,1,0,N,S,0,0,0,1,1,0,0,0,N,A,0,0,0
 273,Education,NAICS Sector,,1,1,1,0,N,S,0,0,0,0,0,1,0,0,N,A,0,0,0
 274,Sex * Education,NAICS Sector,,1,1,1,0,N,S,0,1,0,0,0,1,0,0,N,A,0,0,0
+289,,Ownership * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,0,0,0,0,N,A,0,0,0
+290,Sex,Ownership * NAICS Sector,,0,0,0,1,N,S,1,1,0,0,0,0,0,0,N,A,0,0,0
+291,Age,Ownership * NAICS Sector,,0,0,0,1,N,S,1,0,1,0,0,0,0,0,N,A,0,0,0
+292,Sex * Age,Ownership * NAICS Sector,,0,0,0,1,N,S,1,1,1,0,0,0,0,0,N,A,0,0,0
+293,Race,Ownership * NAICS Sector,,0,0,0,1,N,S,1,0,0,1,0,0,0,0,N,A,0,0,0
+297,Ethnicity,Ownership * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,1,0,0,0,N,A,0,0,0
+301,Race * Ethnicity,Ownership * NAICS Sector,,0,0,0,1,N,S,1,0,0,1,1,0,0,0,N,A,0,0,0
+305,Education,Ownership * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,0,1,0,0,N,A,0,0,0
+306,Sex * Education,Ownership * NAICS Sector,,0,0,0,1,N,S,1,1,0,0,0,1,0,0,N,A,0,0,0
 321,,Firm Age * NAICS Sector,,1,1,1,0,N,S,0,0,0,0,0,0,1,0,N,A,0,0,0
+353,,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,0,0,1,0,N,A,0,0,0
+354,Sex,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,1,0,0,0,0,1,0,N,A,0,0,0
+355,Age,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,0,1,0,0,0,1,0,N,A,0,0,0
+356,Sex * Age,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,1,1,0,0,0,1,0,N,A,0,0,0
+357,Race,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,0,0,1,0,0,1,0,N,A,0,0,0
+361,Ethnicity,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,1,0,1,0,N,A,0,0,0
+365,Race * Ethnicity,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,0,0,1,1,0,1,0,N,A,0,0,0
+369,Education,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,0,1,1,0,N,A,0,0,0
+370,Sex * Education,Ownership * Firm Age * NAICS Sector,,0,0,0,1,N,S,1,1,0,0,0,1,1,0,N,A,0,0,0
 385,,Firm Size * NAICS Sector,,1,1,1,0,N,S,0,0,0,0,0,0,0,1,N,A,0,0,0
+417,,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,0,0,0,1,N,A,0,0,0
+418,Sex,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,1,0,0,0,0,0,1,N,A,0,0,0
+419,Age,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,0,1,0,0,0,0,1,N,A,0,0,0
+420,Sex * Age,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,1,1,0,0,0,0,1,N,A,0,0,0
+421,Race,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,0,0,1,0,0,0,1,N,A,0,0,0
+425,Ethnicity,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,1,0,0,1,N,A,0,0,0
+429,Race * Ethnicity,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,0,0,1,1,0,0,1,N,A,0,0,0
+433,Education,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,0,0,0,0,1,0,1,N,A,0,0,0
+434,Sex * Education,Ownership * Firm Size * NAICS Sector,,0,0,0,1,N,S,1,1,0,0,0,1,0,1,N,A,0,0,0
 513,,NAICS Subsector,,0,0,0,0,N,3,0,0,0,0,0,0,0,0,N,A,0,0,0
-1025,,State,,1,1,1,0,S,A,0,0,0,0,0,0,0,0,N,A,0,0,0
-1026,Sex,State,,1,1,1,0,S,A,0,1,0,0,0,0,0,0,N,A,0,0,0
-1027,Age,State,,1,1,1,0,S,A,0,0,1,0,0,0,0,0,N,A,0,0,0
-1028,Sex * Age,State,,1,1,1,0,S,A,0,1,1,0,0,0,0,0,N,A,0,0,0
-1029,Race,State,,1,1,1,0,S,A,0,0,0,1,0,0,0,0,N,A,0,0,0
-1033,Ethnicity,State,,1,1,1,0,S,A,0,0,0,0,1,0,0,0,N,A,0,0,0
-1037,Race * Ethnicity,State,,1,1,1,0,S,A,0,0,0,1,1,0,0,0,N,A,0,0,0
-1041,Education,State,,1,1,1,0,S,A,0,0,0,0,0,1,0,0,N,A,0,0,0
-1042,Sex * Education,State,,1,1,1,0,S,A,0,1,0,0,0,1,0,0,N,A,0,0,0
+1025,,State,,1,1,1,1,S,A,0,0,0,0,0,0,0,0,N,A,0,0,0
+1026,Sex,State,,1,1,1,1,S,A,0,1,0,0,0,0,0,0,N,A,0,0,0
+1027,Age,State,,1,1,1,1,S,A,0,0,1,0,0,0,0,0,N,A,0,0,0
+1028,Sex * Age,State,,1,1,1,1,S,A,0,1,1,0,0,0,0,0,N,A,0,0,0
+1029,Race,State,,1,1,1,1,S,A,0,0,0,1,0,0,0,0,N,A,0,0,0
+1033,Ethnicity,State,,1,1,1,1,S,A,0,0,0,0,1,0,0,0,N,A,0,0,0
+1037,Race * Ethnicity,State,,1,1,1,1,S,A,0,0,0,1,1,0,0,0,N,A,0,0,0
+1041,Education,State,,1,1,1,1,S,A,0,0,0,0,0,1,0,0,N,A,0,0,0
+1042,Sex * Education,State,,1,1,1,1,S,A,0,1,0,0,0,1,0,0,N,A,0,0,0
+1057,,Ownership * State,,0,0,0,1,S,A,1,0,0,0,0,0,0,0,,,,,
+1058,Sex,Ownership * State,,0,0,0,1,S,A,1,1,0,0,0,0,0,0,,,,,
+1059,Age,Ownership * State,,0,0,0,1,S,A,1,0,1,0,0,0,0,0,,,,,
+1060,Sex * Age,Ownership * State,,0,0,0,1,S,A,1,1,1,0,0,0,0,0,,,,,
+1061,Race,Ownership * State,,0,0,0,1,S,A,1,0,0,1,0,0,0,0,,,,,
+1065,Ethnicity,Ownership * State,,0,0,0,1,S,A,1,0,0,0,1,0,0,0,,,,,
+1069,Race * Ethnicity,Ownership * State,,0,0,0,1,S,A,1,0,0,1,1,0,0,0,,,,,
+1073,Education,Ownership * State,,0,0,0,1,S,A,1,0,0,0,0,1,0,0,,,,,
+1074,Sex * Education,Ownership * State,,0,0,0,1,S,A,1,1,0,0,0,1,0,0,,,,,
 1089,,Firm Age * State,,1,1,1,0,S,A,0,0,0,0,0,0,1,0,N,A,0,0,0
+1121,,Ownership * Firm Age * State,,0,0,0,1,S,A,1,0,0,0,0,0,1,0,,,,,
+1122,Sex,Ownership * Firm Age * State,,0,0,0,1,S,A,1,1,0,0,0,0,1,0,,,,,
+1123,Age,Ownership * Firm Age * State,,0,0,0,1,S,A,1,0,1,0,0,0,1,0,,,,,
+1124,Sex * Age,Ownership * Firm Age * State,,0,0,0,1,S,A,1,1,1,0,0,0,1,0,,,,,
+1125,Race,Ownership * Firm Age * State,,0,0,0,1,S,A,1,0,0,1,0,0,1,0,,,,,
+1129,Ethnicity,Ownership * Firm Age * State,,0,0,0,1,S,A,1,0,0,0,1,0,1,0,,,,,
+1133,Race * Ethnicity,Ownership * Firm Age * State,,0,0,0,1,S,A,1,0,0,1,1,0,1,0,,,,,
+1137,Education,Ownership * Firm Age * State,,0,0,0,1,S,A,1,0,0,0,0,1,1,0,,,,,
+1138,Sex * Education,Ownership * Firm Age * State,,0,0,0,1,S,A,1,1,0,0,0,1,1,0,,,,,
 1153,,Firm Size * State,,1,1,1,0,S,A,0,0,0,0,0,0,0,1,N,A,0,0,0
-1281,,NAICS Sector * State,,1,1,1,0,S,S,0,0,0,0,0,0,0,0,N,A,0,0,0
-1282,Sex,NAICS Sector * State,,1,1,1,0,S,S,0,1,0,0,0,0,0,0,N,A,0,0,0
-1283,Age,NAICS Sector * State,,1,1,1,0,S,S,0,0,1,0,0,0,0,0,N,A,0,0,0
-1284,Sex * Age,NAICS Sector * State,,1,1,1,0,S,S,0,1,1,0,0,0,0,0,N,A,0,0,0
-1285,Race,NAICS Sector * State,,1,1,1,0,S,S,0,0,0,1,0,0,0,0,N,A,0,0,0
-1289,Ethnicity,NAICS Sector * State,,1,1,1,0,S,S,0,0,0,0,1,0,0,0,N,A,0,0,0
-1293,Race * Ethnicity,NAICS Sector * State,,1,1,1,0,S,S,0,0,0,1,1,0,0,0,N,A,0,0,0
-1297,Education,NAICS Sector * State,,1,1,1,0,S,S,0,0,0,0,0,1,0,0,N,A,0,0,0
-1298,Sex * Education,NAICS Sector * State,,1,1,1,0,S,S,0,1,0,0,0,1,0,0,N,A,0,0,0
+1185,,Ownership * Firm Size * State,,0,0,0,1,S,A,1,0,0,0,0,0,0,1,,,,,
+1186,Sex,Ownership * Firm Size * State,,0,0,0,1,S,A,1,1,0,0,0,0,0,1,,,,,
+1187,Age,Ownership * Firm Size * State,,0,0,0,1,S,A,1,0,1,0,0,0,0,1,,,,,
+1188,Sex * Age,Ownership * Firm Size * State,,0,0,0,1,S,A,1,1,1,0,0,0,0,1,,,,,
+1189,Race,Ownership * Firm Size * State,,0,0,0,1,S,A,1,0,0,1,0,0,0,1,,,,,
+1193,Ethnicity,Ownership * Firm Size * State,,0,0,0,1,S,A,1,0,0,0,1,0,0,1,,,,,
+1197,Race * Ethnicity,Ownership * Firm Size * State,,0,0,0,1,S,A,1,0,0,1,1,0,0,1,,,,,
+1201,Education,Ownership * Firm Size * State,,0,0,0,1,S,A,1,0,0,0,0,1,0,1,,,,,
+1202,Sex * Education,Ownership * Firm Size * State,,0,0,0,1,S,A,1,1,0,0,0,1,0,1,,,,,
+1281,,NAICS Sector * State,,1,1,1,1,S,S,0,0,0,0,0,0,0,0,N,A,0,0,0
+1282,Sex,NAICS Sector * State,,1,1,1,1,S,S,0,1,0,0,0,0,0,0,N,A,0,0,0
+1283,Age,NAICS Sector * State,,1,1,1,1,S,S,0,0,1,0,0,0,0,0,N,A,0,0,0
+1284,Sex * Age,NAICS Sector * State,,1,1,1,1,S,S,0,1,1,0,0,0,0,0,N,A,0,0,0
+1285,Race,NAICS Sector * State,,1,1,1,1,S,S,0,0,0,1,0,0,0,0,N,A,0,0,0
+1289,Ethnicity,NAICS Sector * State,,1,1,1,1,S,S,0,0,0,0,1,0,0,0,N,A,0,0,0
+1293,Race * Ethnicity,NAICS Sector * State,,1,1,1,1,S,S,0,0,0,1,1,0,0,0,N,A,0,0,0
+1297,Education,NAICS Sector * State,,1,1,1,1,S,S,0,0,0,0,0,1,0,0,N,A,0,0,0
+1298,Sex * Education,NAICS Sector * State,,1,1,1,1,S,S,0,1,0,0,0,1,0,0,N,A,0,0,0
+1313,,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,0,0,0,0,,,,,
+1314,Sex,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,1,0,0,0,0,0,0,,,,,
+1315,Age,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,0,1,0,0,0,0,0,,,,,
+1316,Sex * Age,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,1,1,0,0,0,0,0,,,,,
+1317,Race,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,1,0,0,0,0,,,,,
+1321,Ethnicity,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,1,0,0,0,,,,,
+1325,Race * Ethnicity,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,1,1,0,0,0,,,,,
+1329,Education,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,0,1,0,0,,,,,
+1330,Sex * Education,Ownership * NAICS Sector * State,,0,0,0,1,S,S,1,1,0,0,0,1,0,0,,,,,
 1345,,Firm Age * NAICS Sector * State,,1,1,1,0,S,S,0,0,0,0,0,0,1,0,N,A,0,0,0
+1377,,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,0,0,1,0,,,,,
+1378,Sex,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,1,0,0,0,0,1,0,,,,,
+1379,Age,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,0,1,0,0,0,1,0,,,,,
+1380,Sex * Age,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,1,1,0,0,0,1,0,,,,,
+1381,Race,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,1,0,0,1,0,,,,,
+1385,Ethnicity,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,1,0,1,0,,,,,
+1389,Race * Ethnicity,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,1,1,0,1,0,,,,,
+1393,Education,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,0,1,1,0,,,,,
+1394,Sex * Education,Ownership * Firm Age * NAICS Sector * State,,0,0,0,1,S,S,1,1,0,0,0,1,1,0,,,,,
 1409,,Firm Size * NAICS Sector * State,,1,1,1,0,S,S,0,0,0,0,0,0,0,1,N,A,0,0,0
-1537,,NAICS Subsector * State,,0,0,0,0,S,3,0,0,0,0,0,0,0,0,N,A,0,0,0
+1441,,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,0,0,0,1,,,,,
+1442,Sex,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,1,0,0,0,0,0,1,,,,,
+1443,Age,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,0,1,0,0,0,0,1,,,,,
+1444,Sex * Age,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,1,1,0,0,0,0,1,,,,,
+1445,Race,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,1,0,0,0,1,,,,,
+1449,Ethnicity,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,1,0,0,1,,,,,
+1453,Race * Ethnicity,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,1,1,0,0,1,,,,,
+1457,Education,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,0,0,0,0,1,0,1,,,,,
+1458,Sex * Education,Ownership * Firm Size * NAICS Sector * State,,0,0,0,1,S,S,1,1,0,0,0,1,0,1,,,,,
+1537,,NAICS Subsector * State,,0,0,0,1,S,3,0,0,0,0,0,0,0,0,N,A,0,0,0
+1538,Sex,NAICS Subsector * State,,0,0,0,1,S,3,0,1,0,0,0,0,0,0,,,,,
+1539,Age,NAICS Subsector * State,,0,0,0,1,S,3,0,0,1,0,0,0,0,0,,,,,
+1540,Sex * Age,NAICS Subsector * State,,0,0,0,1,S,3,0,1,1,0,0,0,0,0,,,,,
+1541,Race,NAICS Subsector * State,,0,0,0,1,S,3,0,0,0,1,0,0,0,0,,,,,
+1545,Ethnicity,NAICS Subsector * State,,0,0,0,1,S,3,0,0,0,0,1,0,0,0,,,,,
+1549,Race * Ethnicity,NAICS Subsector * State,,0,0,0,1,S,3,0,0,0,1,1,0,0,0,,,,,
+1553,Education,NAICS Subsector * State,,0,0,0,1,S,3,0,0,0,0,0,1,0,0,,,,,
+1554,Sex * Education,NAICS Subsector * State,,0,0,0,1,S,3,0,1,0,0,0,1,0,0,,,,,
+1569,,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,0,0,0,0,,,,,
+1570,Sex,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,1,0,0,0,0,0,0,,,,,
+1571,Age,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,0,1,0,0,0,0,0,,,,,
+1572,Sex * Age,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,1,1,0,0,0,0,0,,,,,
+1573,Race,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,1,0,0,0,0,,,,,
+1577,Ethnicity,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,1,0,0,0,,,,,
+1581,Race * Ethnicity,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,1,1,0,0,0,,,,,
+1585,Education,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,0,1,0,0,,,,,
+1586,Sex * Education,Ownership * NAICS Subsector * State,,0,0,0,1,S,3,1,1,0,0,0,1,0,0,,,,,
+1633,,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,0,0,1,0,,,,,
+1634,Sex,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,1,0,0,0,0,1,0,,,,,
+1635,Age,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,0,1,0,0,0,1,0,,,,,
+1636,Sex * Age,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,1,1,0,0,0,1,0,,,,,
+1637,Race,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,1,0,0,1,0,,,,,
+1641,Ethnicity,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,1,0,1,0,,,,,
+1645,Race * Ethnicity,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,1,1,0,1,0,,,,,
+1649,Education,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,0,1,1,0,,,,,
+1650,Sex * Education,Ownership * Firm Age * NAICS Subsector * State,,0,0,0,1,S,3,1,1,0,0,0,1,1,0,,,,,
+1697,,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,0,0,0,1,,,,,
+1698,Sex,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,1,0,0,0,0,0,1,,,,,
+1699,Age,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,0,1,0,0,0,0,1,,,,,
+1700,Sex * Age,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,1,1,0,0,0,0,1,,,,,
+1701,Race,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,1,0,0,0,1,,,,,
+1705,Ethnicity,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,1,0,0,1,,,,,
+1709,Race * Ethnicity,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,1,1,0,0,1,,,,,
+1713,Education,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,0,0,0,0,1,0,1,,,,,
+1714,Sex * Education,Ownership * Firm Size * NAICS Subsector * State,,0,0,0,1,S,3,1,1,0,0,0,1,0,1,,,,,
+1793,,NAICS Industry Group * State,,0,0,0,1,S,4,0,0,0,0,0,0,0,0,,,,,
+1794,Sex,NAICS Industry Group * State,,0,0,0,1,S,4,0,1,0,0,0,0,0,0,,,,,
+1795,Age,NAICS Industry Group * State,,0,0,0,1,S,4,0,0,1,0,0,0,0,0,,,,,
+1796,Sex * Age,NAICS Industry Group * State,,0,0,0,1,S,4,0,1,1,0,0,0,0,0,,,,,
+1797,Race,NAICS Industry Group * State,,0,0,0,1,S,4,0,0,0,1,0,0,0,0,,,,,
+1801,Ethnicity,NAICS Industry Group * State,,0,0,0,1,S,4,0,0,0,0,1,0,0,0,,,,,
+1805,Race * Ethnicity,NAICS Industry Group * State,,0,0,0,1,S,4,0,0,0,1,1,0,0,0,,,,,
+1809,Education,NAICS Industry Group * State,,0,0,0,1,S,4,0,0,0,0,0,1,0,0,,,,,
+1810,Sex * Education,NAICS Industry Group * State,,0,0,0,1,S,4,0,1,0,0,0,1,0,0,,,,,
+1825,,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,0,0,0,0,,,,,
+1826,Sex,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,0,0,0,0,0,0,,,,,
+1827,Age,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,1,0,0,0,0,0,,,,,
+1828,Sex * Age,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,1,0,0,0,0,0,,,,,
+1829,Race,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,1,0,0,0,0,,,,,
+1833,Ethnicity,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,1,0,0,0,,,,,
+1837,Race * Ethnicity,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,1,1,0,0,0,,,,,
+1841,Education,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,0,1,0,0,,,,,
+1842,Sex * Education,Ownership * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,0,0,0,1,0,0,,,,,
+1889,,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,0,0,1,0,,,,,
+1890,Sex,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,0,0,0,0,1,0,,,,,
+1891,Age,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,1,0,0,0,1,0,,,,,
+1892,Sex * Age,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,1,0,0,0,1,0,,,,,
+1893,Race,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,1,0,0,1,0,,,,,
+1897,Ethnicity,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,1,0,1,0,,,,,
+1901,Race * Ethnicity,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,1,1,0,1,0,,,,,
+1905,Education,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,0,1,1,0,,,,,
+1906,Sex * Education,Ownership * Firm Age * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,0,0,0,1,1,0,,,,,
+1953,,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,0,0,0,1,,,,,
+1954,Sex,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,0,0,0,0,0,1,,,,,
+1955,Age,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,1,0,0,0,0,1,,,,,
+1956,Sex * Age,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,1,0,0,0,0,1,,,,,
+1957,Race,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,1,0,0,0,1,,,,,
+1961,Ethnicity,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,1,0,0,1,,,,,
+1965,Race * Ethnicity,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,1,1,0,0,1,,,,,
+1969,Education,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,0,0,0,0,1,0,1,,,,,
+1970,Sex * Education,Ownership * Firm Size * NAICS Industry Group * State,,0,0,0,1,S,4,1,1,0,0,0,1,0,1,,,,,
+2049,,Metro-state part,,0,0,0,1,M,A,0,0,0,0,0,0,0,0,,,,,
+2050,Sex,Metro-state part,,0,0,0,1,M,A,0,1,0,0,0,0,0,0,,,,,
+2051,Age,Metro-state part,,0,0,0,1,M,A,0,0,1,0,0,0,0,0,,,,,
+2052,Sex * Age,Metro-state part,,0,0,0,1,M,A,0,1,1,0,0,0,0,0,,,,,
+2053,Race,Metro-state part,,0,0,0,1,M,A,0,0,0,1,0,0,0,0,,,,,
+2057,Ethnicity,Metro-state part,,0,0,0,1,M,A,0,0,0,0,1,0,0,0,,,,,
+2061,Race * Ethnicity,Metro-state part,,0,0,0,1,M,A,0,0,0,1,1,0,0,0,,,,,
+2065,Education,Metro-state part,,0,0,0,1,M,A,0,0,0,0,0,1,0,0,,,,,
+2066,Sex * Education,Metro-state part,,0,0,0,1,M,A,0,1,0,0,0,1,0,0,,,,,
+2081,,Ownership * Metro-state part,,0,0,0,1,M,A,1,0,0,0,0,0,0,0,,,,,
+2082,Sex,Ownership * Metro-state part,,0,0,0,1,M,A,1,1,0,0,0,0,0,0,,,,,
+2083,Age,Ownership * Metro-state part,,0,0,0,1,M,A,1,0,1,0,0,0,0,0,,,,,
+2084,Sex * Age,Ownership * Metro-state part,,0,0,0,1,M,A,1,1,1,0,0,0,0,0,,,,,
+2085,Race,Ownership * Metro-state part,,0,0,0,1,M,A,1,0,0,1,0,0,0,0,,,,,
+2089,Ethnicity,Ownership * Metro-state part,,0,0,0,1,M,A,1,0,0,0,1,0,0,0,,,,,
+2093,Race * Ethnicity,Ownership * Metro-state part,,0,0,0,1,M,A,1,0,0,1,1,0,0,0,,,,,
+2097,Education,Ownership * Metro-state part,,0,0,0,1,M,A,1,0,0,0,0,1,0,0,,,,,
+2098,Sex * Education,Ownership * Metro-state part,,0,0,0,1,M,A,1,1,0,0,0,1,0,0,,,,,
+2145,,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,0,0,0,0,0,1,0,,,,,
+2146,Sex,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,1,0,0,0,0,1,0,,,,,
+2147,Age,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,0,1,0,0,0,1,0,,,,,
+2148,Sex * Age,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,1,1,0,0,0,1,0,,,,,
+2149,Race,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,0,0,1,0,0,1,0,,,,,
+2153,Ethnicity,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,0,0,0,1,0,1,0,,,,,
+2157,Race * Ethnicity,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,0,0,1,1,0,1,0,,,,,
+2161,Education,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,0,0,0,0,1,1,0,,,,,
+2162,Sex * Education,Ownership * Firm Age * Metro-state part,,0,0,0,1,M,A,1,1,0,0,0,1,1,0,,,,,
+2209,,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,0,0,0,0,0,0,1,,,,,
+2210,Sex,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,1,0,0,0,0,0,1,,,,,
+2211,Age,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,0,1,0,0,0,0,1,,,,,
+2212,Sex * Age,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,1,1,0,0,0,0,1,,,,,
+2213,Race,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,0,0,1,0,0,0,1,,,,,
+2217,Ethnicity,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,0,0,0,1,0,0,1,,,,,
+2221,Race * Ethnicity,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,0,0,1,1,0,0,1,,,,,
+2225,Education,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,0,0,0,0,1,0,1,,,,,
+2226,Sex * Education,Ownership * Firm Size * Metro-state part,,0,0,0,1,M,A,1,1,0,0,0,1,0,1,,,,,
+2305,,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,0,0,0,0,0,0,0,,,,,
+2306,Sex,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,1,0,0,0,0,0,0,,,,,
+2307,Age,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,0,1,0,0,0,0,0,,,,,
+2308,Sex * Age,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,1,1,0,0,0,0,0,,,,,
+2309,Race,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,0,0,1,0,0,0,0,,,,,
+2313,Ethnicity,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,0,0,0,1,0,0,0,,,,,
+2317,Race * Ethnicity,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,0,0,1,1,0,0,0,,,,,
+2321,Education,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,0,0,0,0,1,0,0,,,,,
+2322,Sex * Education,NAICS Sector * Metro-state part,,0,0,0,1,M,S,0,1,0,0,0,1,0,0,,,,,
+2337,,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,0,0,0,0,,,,,
+2338,Sex,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,0,0,0,0,0,0,,,,,
+2339,Age,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,1,0,0,0,0,0,,,,,
+2340,Sex * Age,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,1,0,0,0,0,0,,,,,
+2341,Race,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,1,0,0,0,0,,,,,
+2345,Ethnicity,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,1,0,0,0,,,,,
+2349,Race * Ethnicity,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,1,1,0,0,0,,,,,
+2353,Education,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,0,1,0,0,,,,,
+2354,Sex * Education,Ownership * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,0,0,0,1,0,0,,,,,
+2401,,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,0,0,1,0,,,,,
+2402,Sex,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,0,0,0,0,1,0,,,,,
+2403,Age,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,1,0,0,0,1,0,,,,,
+2404,Sex * Age,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,1,0,0,0,1,0,,,,,
+2405,Race,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,1,0,0,1,0,,,,,
+2409,Ethnicity,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,1,0,1,0,,,,,
+2413,Race * Ethnicity,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,1,1,0,1,0,,,,,
+2417,Education,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,0,1,1,0,,,,,
+2418,Sex * Education,Ownership * Firm Age * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,0,0,0,1,1,0,,,,,
+2465,,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,0,0,0,1,,,,,
+2466,Sex,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,0,0,0,0,0,1,,,,,
+2467,Age,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,1,0,0,0,0,1,,,,,
+2468,Sex * Age,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,1,0,0,0,0,1,,,,,
+2469,Race,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,1,0,0,0,1,,,,,
+2473,Ethnicity,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,1,0,0,1,,,,,
+2477,Race * Ethnicity,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,1,1,0,0,1,,,,,
+2481,Education,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,0,0,0,0,1,0,1,,,,,
+2482,Sex * Education,Ownership * Firm Size * NAICS Sector * Metro-state part,,0,0,0,1,M,S,1,1,0,0,0,1,0,1,,,,,
+2561,,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,0,0,0,0,0,0,0,,,,,
+2562,Sex,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,1,0,0,0,0,0,0,,,,,
+2563,Age,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,0,1,0,0,0,0,0,,,,,
+2564,Sex * Age,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,1,1,0,0,0,0,0,,,,,
+2565,Race,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,0,0,1,0,0,0,0,,,,,
+2569,Ethnicity,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,0,0,0,1,0,0,0,,,,,
+2573,Race * Ethnicity,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,0,0,1,1,0,0,0,,,,,
+2577,Education,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,0,0,0,0,1,0,0,,,,,
+2578,Sex * Education,NAICS Subsector * Metro-state part,,0,0,0,1,M,3,0,1,0,0,0,1,0,0,,,,,
+2593,,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,0,0,0,0,0,0,0,,,,,
+2594,Sex,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,1,0,0,0,0,0,0,,,,,
+2595,Age,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,0,1,0,0,0,0,0,,,,,
+2596,Sex * Age,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,1,1,0,0,0,0,0,,,,,
+2597,Race,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,0,0,1,0,0,0,0,,,,,
+2601,Ethnicity,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,0,0,0,1,0,0,0,,,,,
+2605,Race * Ethnicity,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,0,0,1,1,0,0,0,,,,,
+2609,Education,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,0,0,0,0,1,0,0,,,,,
+2610,Sex * Education,Ownership * NAICS Subsector * Metro-state part,,0,0,0,1,M,3,1,1,0,0,0,1,0,0,,,,,
+2817,,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,0,0,0,0,0,0,0,,,,,
+2818,Sex,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,1,0,0,0,0,0,0,,,,,
+2819,Age,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,0,1,0,0,0,0,0,,,,,
+2820,Sex * Age,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,1,1,0,0,0,0,0,,,,,
+2821,Race,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,0,0,1,0,0,0,0,,,,,
+2825,Ethnicity,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,0,0,0,1,0,0,0,,,,,
+2829,Race * Ethnicity,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,0,0,1,1,0,0,0,,,,,
+2833,Education,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,0,0,0,0,1,0,0,,,,,
+2834,Sex * Education,NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,0,1,0,0,0,1,0,0,,,,,
+2849,,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,0,0,0,0,0,0,0,,,,,
+2850,Sex,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,1,0,0,0,0,0,0,,,,,
+2851,Age,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,0,1,0,0,0,0,0,,,,,
+2852,Sex * Age,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,1,1,0,0,0,0,0,,,,,
+2853,Race,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,0,0,1,0,0,0,0,,,,,
+2857,Ethnicity,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,0,0,0,1,0,0,0,,,,,
+2861,Race * Ethnicity,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,0,0,1,1,0,0,0,,,,,
+2865,Education,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,0,0,0,0,1,0,0,,,,,
+2866,Sex * Education,Ownership * NAICS Industry Group * Metro-state part,,0,0,0,1,M,4,1,1,0,0,0,1,0,0,,,,,
 3073,,Metro-complete,,1,1,1,0,B,A,0,0,0,0,0,0,0,0,N,A,0,0,0
 3074,Sex,Metro-complete,,1,1,1,0,B,A,0,1,0,0,0,0,0,0,N,A,0,0,0
 3075,Age,Metro-complete,,1,1,1,0,B,A,0,0,1,0,0,0,0,0,N,A,0,0,0
@@ -63,6 +350,222 @@ agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_
 3341,Race * Ethnicity,NAICS Sector * Metro-complete,,1,1,1,0,B,S,0,0,0,1,1,0,0,0,N,A,0,0,0
 3345,Education,NAICS Sector * Metro-complete,,1,1,1,0,B,S,0,0,0,0,0,1,0,0,N,A,0,0,0
 3346,Sex * Education,NAICS Sector * Metro-complete,,1,1,1,0,B,S,0,1,0,0,0,1,0,0,N,A,0,0,0
+4097,,County,,0,0,0,1,C,A,0,0,0,0,0,0,0,0,,,,,
+4098,Sex,County,,0,0,0,1,C,A,0,1,0,0,0,0,0,0,,,,,
+4099,Age,County,,0,0,0,1,C,A,0,0,1,0,0,0,0,0,,,,,
+4100,Sex * Age,County,,0,0,0,1,C,A,0,1,1,0,0,0,0,0,,,,,
+4101,Race,County,,0,0,0,1,C,A,0,0,0,1,0,0,0,0,,,,,
+4105,Ethnicity,County,,0,0,0,1,C,A,0,0,0,0,1,0,0,0,,,,,
+4109,Race * Ethnicity,County,,0,0,0,1,C,A,0,0,0,1,1,0,0,0,,,,,
+4113,Education,County,,0,0,0,1,C,A,0,0,0,0,0,1,0,0,,,,,
+4114,Sex * Education,County,,0,0,0,1,C,A,0,1,0,0,0,1,0,0,,,,,
+4129,,Ownership * County,,0,0,0,1,C,A,1,0,0,0,0,0,0,0,,,,,
+4130,Sex,Ownership * County,,0,0,0,1,C,A,1,1,0,0,0,0,0,0,,,,,
+4131,Age,Ownership * County,,0,0,0,1,C,A,1,0,1,0,0,0,0,0,,,,,
+4132,Sex * Age,Ownership * County,,0,0,0,1,C,A,1,1,1,0,0,0,0,0,,,,,
+4133,Race,Ownership * County,,0,0,0,1,C,A,1,0,0,1,0,0,0,0,,,,,
+4137,Ethnicity,Ownership * County,,0,0,0,1,C,A,1,0,0,0,1,0,0,0,,,,,
+4141,Race * Ethnicity,Ownership * County,,0,0,0,1,C,A,1,0,0,1,1,0,0,0,,,,,
+4145,Education,Ownership * County,,0,0,0,1,C,A,1,0,0,0,0,1,0,0,,,,,
+4146,Sex * Education,Ownership * County,,0,0,0,1,C,A,1,1,0,0,0,1,0,0,,,,,
+4193,,Ownership * Firm Age * County,,0,0,0,1,C,A,1,0,0,0,0,0,1,0,,,,,
+4194,Sex,Ownership * Firm Age * County,,0,0,0,1,C,A,1,1,0,0,0,0,1,0,,,,,
+4195,Age,Ownership * Firm Age * County,,0,0,0,1,C,A,1,0,1,0,0,0,1,0,,,,,
+4196,Sex * Age,Ownership * Firm Age * County,,0,0,0,1,C,A,1,1,1,0,0,0,1,0,,,,,
+4197,Race,Ownership * Firm Age * County,,0,0,0,1,C,A,1,0,0,1,0,0,1,0,,,,,
+4201,Ethnicity,Ownership * Firm Age * County,,0,0,0,1,C,A,1,0,0,0,1,0,1,0,,,,,
+4205,Race * Ethnicity,Ownership * Firm Age * County,,0,0,0,1,C,A,1,0,0,1,1,0,1,0,,,,,
+4209,Education,Ownership * Firm Age * County,,0,0,0,1,C,A,1,0,0,0,0,1,1,0,,,,,
+4210,Sex * Education,Ownership * Firm Age * County,,0,0,0,1,C,A,1,1,0,0,0,1,1,0,,,,,
+4257,,Ownership * Firm Size * County,,0,0,0,1,C,A,1,0,0,0,0,0,0,1,,,,,
+4258,Sex,Ownership * Firm Size * County,,0,0,0,1,C,A,1,1,0,0,0,0,0,1,,,,,
+4259,Age,Ownership * Firm Size * County,,0,0,0,1,C,A,1,0,1,0,0,0,0,1,,,,,
+4260,Sex * Age,Ownership * Firm Size * County,,0,0,0,1,C,A,1,1,1,0,0,0,0,1,,,,,
+4261,Race,Ownership * Firm Size * County,,0,0,0,1,C,A,1,0,0,1,0,0,0,1,,,,,
+4265,Ethnicity,Ownership * Firm Size * County,,0,0,0,1,C,A,1,0,0,0,1,0,0,1,,,,,
+4269,Race * Ethnicity,Ownership * Firm Size * County,,0,0,0,1,C,A,1,0,0,1,1,0,0,1,,,,,
+4273,Education,Ownership * Firm Size * County,,0,0,0,1,C,A,1,0,0,0,0,1,0,1,,,,,
+4274,Sex * Education,Ownership * Firm Size * County,,0,0,0,1,C,A,1,1,0,0,0,1,0,1,,,,,
+4353,,NAICS Sector * County,,0,0,0,1,C,S,0,0,0,0,0,0,0,0,,,,,
+4354,Sex,NAICS Sector * County,,0,0,0,1,C,S,0,1,0,0,0,0,0,0,,,,,
+4355,Age,NAICS Sector * County,,0,0,0,1,C,S,0,0,1,0,0,0,0,0,,,,,
+4356,Sex * Age,NAICS Sector * County,,0,0,0,1,C,S,0,1,1,0,0,0,0,0,,,,,
+4357,Race,NAICS Sector * County,,0,0,0,1,C,S,0,0,0,1,0,0,0,0,,,,,
+4361,Ethnicity,NAICS Sector * County,,0,0,0,1,C,S,0,0,0,0,1,0,0,0,,,,,
+4365,Race * Ethnicity,NAICS Sector * County,,0,0,0,1,C,S,0,0,0,1,1,0,0,0,,,,,
+4369,Education,NAICS Sector * County,,0,0,0,1,C,S,0,0,0,0,0,1,0,0,,,,,
+4370,Sex * Education,NAICS Sector * County,,0,0,0,1,C,S,0,1,0,0,0,1,0,0,,,,,
+4385,,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,0,0,0,0,,,,,
+4386,Sex,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,1,0,0,0,0,0,0,,,,,
+4387,Age,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,0,1,0,0,0,0,0,,,,,
+4388,Sex * Age,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,1,1,0,0,0,0,0,,,,,
+4389,Race,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,1,0,0,0,0,,,,,
+4393,Ethnicity,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,1,0,0,0,,,,,
+4397,Race * Ethnicity,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,1,1,0,0,0,,,,,
+4401,Education,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,0,1,0,0,,,,,
+4402,Sex * Education,Ownership * NAICS Sector * County,,0,0,0,1,C,S,1,1,0,0,0,1,0,0,,,,,
+4449,,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,0,0,1,0,,,,,
+4450,Sex,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,1,0,0,0,0,1,0,,,,,
+4451,Age,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,0,1,0,0,0,1,0,,,,,
+4452,Sex * Age,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,1,1,0,0,0,1,0,,,,,
+4453,Race,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,1,0,0,1,0,,,,,
+4457,Ethnicity,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,1,0,1,0,,,,,
+4461,Race * Ethnicity,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,1,1,0,1,0,,,,,
+4465,Education,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,0,1,1,0,,,,,
+4466,Sex * Education,Ownership * Firm Age * NAICS Sector * County,,0,0,0,1,C,S,1,1,0,0,0,1,1,0,,,,,
+4513,,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,0,0,0,1,,,,,
+4514,Sex,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,1,0,0,0,0,0,1,,,,,
+4515,Age,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,0,1,0,0,0,0,1,,,,,
+4516,Sex * Age,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,1,1,0,0,0,0,1,,,,,
+4517,Race,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,1,0,0,0,1,,,,,
+4521,Ethnicity,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,1,0,0,1,,,,,
+4525,Race * Ethnicity,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,1,1,0,0,1,,,,,
+4529,Education,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,0,0,0,0,1,0,1,,,,,
+4530,Sex * Education,Ownership * Firm Size * NAICS Sector * County,,0,0,0,1,C,S,1,1,0,0,0,1,0,1,,,,,
+4609,,NAICS Subsector * County,,0,0,0,1,C,3,0,0,0,0,0,0,0,0,,,,,
+4610,Sex,NAICS Subsector * County,,0,0,0,1,C,3,0,1,0,0,0,0,0,0,,,,,
+4611,Age,NAICS Subsector * County,,0,0,0,1,C,3,0,0,1,0,0,0,0,0,,,,,
+4612,Sex * Age,NAICS Subsector * County,,0,0,0,1,C,3,0,1,1,0,0,0,0,0,,,,,
+4613,Race,NAICS Subsector * County,,0,0,0,1,C,3,0,0,0,1,0,0,0,0,,,,,
+4617,Ethnicity,NAICS Subsector * County,,0,0,0,1,C,3,0,0,0,0,1,0,0,0,,,,,
+4621,Race * Ethnicity,NAICS Subsector * County,,0,0,0,1,C,3,0,0,0,1,1,0,0,0,,,,,
+4625,Education,NAICS Subsector * County,,0,0,0,1,C,3,0,0,0,0,0,1,0,0,,,,,
+4626,Sex * Education,NAICS Subsector * County,,0,0,0,1,C,3,0,1,0,0,0,1,0,0,,,,,
+4641,,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,0,0,0,0,0,0,0,,,,,
+4642,Sex,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,1,0,0,0,0,0,0,,,,,
+4643,Age,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,0,1,0,0,0,0,0,,,,,
+4644,Sex * Age,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,1,1,0,0,0,0,0,,,,,
+4645,Race,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,0,0,1,0,0,0,0,,,,,
+4649,Ethnicity,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,0,0,0,1,0,0,0,,,,,
+4653,Race * Ethnicity,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,0,0,1,1,0,0,0,,,,,
+4657,Education,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,0,0,0,0,1,0,0,,,,,
+4658,Sex * Education,Ownership * NAICS Subsector * County,,0,0,0,1,C,3,1,1,0,0,0,1,0,0,,,,,
+4865,,NAICS Industry Group * County,,0,0,0,1,C,4,0,0,0,0,0,0,0,0,,,,,
+4866,Sex,NAICS Industry Group * County,,0,0,0,1,C,4,0,1,0,0,0,0,0,0,,,,,
+4867,Age,NAICS Industry Group * County,,0,0,0,1,C,4,0,0,1,0,0,0,0,0,,,,,
+4868,Sex * Age,NAICS Industry Group * County,,0,0,0,1,C,4,0,1,1,0,0,0,0,0,,,,,
+4869,Race,NAICS Industry Group * County,,0,0,0,1,C,4,0,0,0,1,0,0,0,0,,,,,
+4873,Ethnicity,NAICS Industry Group * County,,0,0,0,1,C,4,0,0,0,0,1,0,0,0,,,,,
+4877,Race * Ethnicity,NAICS Industry Group * County,,0,0,0,1,C,4,0,0,0,1,1,0,0,0,,,,,
+4881,Education,NAICS Industry Group * County,,0,0,0,1,C,4,0,0,0,0,0,1,0,0,,,,,
+4882,Sex * Education,NAICS Industry Group * County,,0,0,0,1,C,4,0,1,0,0,0,1,0,0,,,,,
+4897,,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,0,0,0,0,0,0,0,,,,,
+4898,Sex,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,1,0,0,0,0,0,0,,,,,
+4899,Age,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,0,1,0,0,0,0,0,,,,,
+4900,Sex * Age,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,1,1,0,0,0,0,0,,,,,
+4901,Race,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,0,0,1,0,0,0,0,,,,,
+4905,Ethnicity,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,0,0,0,1,0,0,0,,,,,
+4909,Race * Ethnicity,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,0,0,1,1,0,0,0,,,,,
+4913,Education,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,0,0,0,0,1,0,0,,,,,
+4914,Sex * Education,Ownership * NAICS Industry Group * County,,0,0,0,1,C,4,1,1,0,0,0,1,0,0,,,,,
+5121,,WIB,,0,0,0,1,W,A,0,0,0,0,0,0,0,0,,,,,
+5122,Sex,WIB,,0,0,0,1,W,A,0,1,0,0,0,0,0,0,,,,,
+5123,Age,WIB,,0,0,0,1,W,A,0,0,1,0,0,0,0,0,,,,,
+5124,Sex * Age,WIB,,0,0,0,1,W,A,0,1,1,0,0,0,0,0,,,,,
+5125,Race,WIB,,0,0,0,1,W,A,0,0,0,1,0,0,0,0,,,,,
+5129,Ethnicity,WIB,,0,0,0,1,W,A,0,0,0,0,1,0,0,0,,,,,
+5133,Race * Ethnicity,WIB,,0,0,0,1,W,A,0,0,0,1,1,0,0,0,,,,,
+5137,Education,WIB,,0,0,0,1,W,A,0,0,0,0,0,1,0,0,,,,,
+5138,Sex * Education,WIB,,0,0,0,1,W,A,0,1,0,0,0,1,0,0,,,,,
+5153,,Ownership * WIB,,0,0,0,1,W,A,1,0,0,0,0,0,0,0,,,,,
+5154,Sex,Ownership * WIB,,0,0,0,1,W,A,1,1,0,0,0,0,0,0,,,,,
+5155,Age,Ownership * WIB,,0,0,0,1,W,A,1,0,1,0,0,0,0,0,,,,,
+5156,Sex * Age,Ownership * WIB,,0,0,0,1,W,A,1,1,1,0,0,0,0,0,,,,,
+5157,Race,Ownership * WIB,,0,0,0,1,W,A,1,0,0,1,0,0,0,0,,,,,
+5161,Ethnicity,Ownership * WIB,,0,0,0,1,W,A,1,0,0,0,1,0,0,0,,,,,
+5165,Race * Ethnicity,Ownership * WIB,,0,0,0,1,W,A,1,0,0,1,1,0,0,0,,,,,
+5169,Education,Ownership * WIB,,0,0,0,1,W,A,1,0,0,0,0,1,0,0,,,,,
+5170,Sex * Education,Ownership * WIB,,0,0,0,1,W,A,1,1,0,0,0,1,0,0,,,,,
+5217,,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,0,0,0,0,0,1,0,,,,,
+5218,Sex,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,1,0,0,0,0,1,0,,,,,
+5219,Age,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,0,1,0,0,0,1,0,,,,,
+5220,Sex * Age,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,1,1,0,0,0,1,0,,,,,
+5221,Race,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,0,0,1,0,0,1,0,,,,,
+5225,Ethnicity,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,0,0,0,1,0,1,0,,,,,
+5229,Race * Ethnicity,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,0,0,1,1,0,1,0,,,,,
+5233,Education,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,0,0,0,0,1,1,0,,,,,
+5234,Sex * Education,Ownership * Firm Age * WIB,,0,0,0,1,W,A,1,1,0,0,0,1,1,0,,,,,
+5281,,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,0,0,0,0,0,0,1,,,,,
+5282,Sex,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,1,0,0,0,0,0,1,,,,,
+5283,Age,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,0,1,0,0,0,0,1,,,,,
+5284,Sex * Age,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,1,1,0,0,0,0,1,,,,,
+5285,Race,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,0,0,1,0,0,0,1,,,,,
+5289,Ethnicity,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,0,0,0,1,0,0,1,,,,,
+5293,Race * Ethnicity,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,0,0,1,1,0,0,1,,,,,
+5297,Education,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,0,0,0,0,1,0,1,,,,,
+5298,Sex * Education,Ownership * Firm Size * WIB,,0,0,0,1,W,A,1,1,0,0,0,1,0,1,,,,,
+5377,,NAICS Sector * WIB,,0,0,0,1,W,S,0,0,0,0,0,0,0,0,,,,,
+5378,Sex,NAICS Sector * WIB,,0,0,0,1,W,S,0,1,0,0,0,0,0,0,,,,,
+5379,Age,NAICS Sector * WIB,,0,0,0,1,W,S,0,0,1,0,0,0,0,0,,,,,
+5380,Sex * Age,NAICS Sector * WIB,,0,0,0,1,W,S,0,1,1,0,0,0,0,0,,,,,
+5381,Race,NAICS Sector * WIB,,0,0,0,1,W,S,0,0,0,1,0,0,0,0,,,,,
+5385,Ethnicity,NAICS Sector * WIB,,0,0,0,1,W,S,0,0,0,0,1,0,0,0,,,,,
+5389,Race * Ethnicity,NAICS Sector * WIB,,0,0,0,1,W,S,0,0,0,1,1,0,0,0,,,,,
+5393,Education,NAICS Sector * WIB,,0,0,0,1,W,S,0,0,0,0,0,1,0,0,,,,,
+5394,Sex * Education,NAICS Sector * WIB,,0,0,0,1,W,S,0,1,0,0,0,1,0,0,,,,,
+5409,,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,0,0,0,0,,,,,
+5410,Sex,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,0,0,0,0,0,0,,,,,
+5411,Age,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,1,0,0,0,0,0,,,,,
+5412,Sex * Age,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,1,0,0,0,0,0,,,,,
+5413,Race,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,1,0,0,0,0,,,,,
+5417,Ethnicity,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,1,0,0,0,,,,,
+5421,Race * Ethnicity,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,1,1,0,0,0,,,,,
+5425,Education,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,0,1,0,0,,,,,
+5426,Sex * Education,Ownership * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,0,0,0,1,0,0,,,,,
+5473,,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,0,0,1,0,,,,,
+5474,Sex,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,0,0,0,0,1,0,,,,,
+5475,Age,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,1,0,0,0,1,0,,,,,
+5476,Sex * Age,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,1,0,0,0,1,0,,,,,
+5477,Race,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,1,0,0,1,0,,,,,
+5481,Ethnicity,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,1,0,1,0,,,,,
+5485,Race * Ethnicity,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,1,1,0,1,0,,,,,
+5489,Education,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,0,1,1,0,,,,,
+5490,Sex * Education,Ownership * Firm Age * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,0,0,0,1,1,0,,,,,
+5537,,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,0,0,0,1,,,,,
+5538,Sex,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,0,0,0,0,0,1,,,,,
+5539,Age,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,1,0,0,0,0,1,,,,,
+5540,Sex * Age,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,1,0,0,0,0,1,,,,,
+5541,Race,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,1,0,0,0,1,,,,,
+5545,Ethnicity,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,1,0,0,1,,,,,
+5549,Race * Ethnicity,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,1,1,0,0,1,,,,,
+5553,Education,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,0,0,0,0,1,0,1,,,,,
+5554,Sex * Education,Ownership * Firm Size * NAICS Sector * WIB,,0,0,0,1,W,S,1,1,0,0,0,1,0,1,,,,,
+5633,,NAICS Subsector * WIB,,0,0,0,1,W,3,0,0,0,0,0,0,0,0,,,,,
+5634,Sex,NAICS Subsector * WIB,,0,0,0,1,W,3,0,1,0,0,0,0,0,0,,,,,
+5635,Age,NAICS Subsector * WIB,,0,0,0,1,W,3,0,0,1,0,0,0,0,0,,,,,
+5636,Sex * Age,NAICS Subsector * WIB,,0,0,0,1,W,3,0,1,1,0,0,0,0,0,,,,,
+5637,Race,NAICS Subsector * WIB,,0,0,0,1,W,3,0,0,0,1,0,0,0,0,,,,,
+5641,Ethnicity,NAICS Subsector * WIB,,0,0,0,1,W,3,0,0,0,0,1,0,0,0,,,,,
+5645,Race * Ethnicity,NAICS Subsector * WIB,,0,0,0,1,W,3,0,0,0,1,1,0,0,0,,,,,
+5649,Education,NAICS Subsector * WIB,,0,0,0,1,W,3,0,0,0,0,0,1,0,0,,,,,
+5650,Sex * Education,NAICS Subsector * WIB,,0,0,0,1,W,3,0,1,0,0,0,1,0,0,,,,,
+5665,,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,0,0,0,0,0,0,0,,,,,
+5666,Sex,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,1,0,0,0,0,0,0,,,,,
+5667,Age,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,0,1,0,0,0,0,0,,,,,
+5668,Sex * Age,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,1,1,0,0,0,0,0,,,,,
+5669,Race,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,0,0,1,0,0,0,0,,,,,
+5673,Ethnicity,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,0,0,0,1,0,0,0,,,,,
+5677,Race * Ethnicity,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,0,0,1,1,0,0,0,,,,,
+5681,Education,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,0,0,0,0,1,0,0,,,,,
+5682,Sex * Education,Ownership * NAICS Subsector * WIB,,0,0,0,1,W,3,1,1,0,0,0,1,0,0,,,,,
+5889,,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,0,0,0,0,0,0,0,,,,,
+5890,Sex,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,1,0,0,0,0,0,0,,,,,
+5891,Age,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,0,1,0,0,0,0,0,,,,,
+5892,Sex * Age,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,1,1,0,0,0,0,0,,,,,
+5893,Race,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,0,0,1,0,0,0,0,,,,,
+5897,Ethnicity,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,0,0,0,1,0,0,0,,,,,
+5901,Race * Ethnicity,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,0,0,1,1,0,0,0,,,,,
+5905,Education,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,0,0,0,0,1,0,0,,,,,
+5906,Sex * Education,NAICS Industry Group * WIB,,0,0,0,1,W,4,0,1,0,0,0,1,0,0,,,,,
+5921,,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,0,0,0,0,0,0,0,,,,,
+5922,Sex,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,1,0,0,0,0,0,0,,,,,
+5923,Age,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,0,1,0,0,0,0,0,,,,,
+5924,Sex * Age,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,1,1,0,0,0,0,0,,,,,
+5925,Race,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,0,0,1,0,0,0,0,,,,,
+5929,Ethnicity,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,0,0,0,1,0,0,0,,,,,
+5933,Race * Ethnicity,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,0,0,1,1,0,0,0,,,,,
+5937,Education,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,0,0,0,0,1,0,0,,,,,
+5938,Sex * Education,Ownership * NAICS Industry Group * WIB,,0,0,0,1,W,4,1,1,0,0,0,1,0,0,,,,,
 12289,,,Origin [Firm Age],0,0,1,0,N,A,0,0,0,0,0,0,0,0,N,A,0,1,0
 12353,,Destination [Firm Age],Origin [Firm Age],0,0,0,0,N,A,0,0,0,0,0,0,1,0,N,A,0,1,0
 12545,,Destination [NAICS Sector],Origin [Firm Age],0,0,0,0,N,S,0,0,0,0,0,0,0,0,N,A,0,1,0
@@ -439,3 +942,75 @@ agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_
 642317,Race * Ethnicity,Destination [NAICS Sector * Metro-complete],Origin [NAICS Sector * Metro-complete],0,0,1,0,B,S,0,0,0,1,1,0,0,0,B,S,0,0,0
 642321,Education,Destination [NAICS Sector * Metro-complete],Origin [NAICS Sector * Metro-complete],0,0,1,0,B,S,0,0,0,0,0,1,0,0,B,S,0,0,0
 642322,Sex * Education,Destination [NAICS Sector * Metro-complete],Origin [NAICS Sector * Metro-complete],0,0,1,0,B,S,0,1,0,0,0,1,0,0,B,S,0,0,0
+1179905,,State * NAICS Industry,,0,0,0,1,S,5,0,0,0,0,0,0,0,0,N,A,0,0,0
+1179906,Sex,State * NAICS Industry,,0,0,0,1,S,5,0,1,0,0,0,0,0,0,N,A,0,0,0
+1179907,Age,State * NAICS Industry,,0,0,0,1,S,5,0,0,1,0,0,0,0,0,N,A,0,0,0
+1179908,Sex * Age,State * NAICS Industry,,0,0,0,1,S,5,0,1,1,0,0,0,0,0,N,A,0,0,0
+1179909,Race,State * NAICS Industry,,0,0,0,1,S,5,0,0,0,1,0,0,0,0,N,A,0,0,0
+1179913,Ethnicity,State * NAICS Industry,,0,0,0,1,S,5,0,0,0,0,1,0,0,0,N,A,0,0,0
+1179917,Race * Ethnicity,State * NAICS Industry,,0,0,0,1,S,5,0,0,0,1,1,0,0,0,N,A,0,0,0
+1179921,Education,State * NAICS Industry,,0,0,0,1,S,5,0,0,0,0,0,1,0,0,N,A,0,0,0
+1179922,Sex * Education,State * NAICS Industry,,0,0,0,1,S,5,0,1,0,0,0,1,0,0,N,A,0,0,0
+1179937,,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,0,0,0,0,N,A,0,0,0
+1179938,Sex,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,1,0,0,0,0,0,0,N,A,0,0,0
+1179939,Age,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,0,1,0,0,0,0,0,N,A,0,0,0
+1179940,Sex * Age,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,1,1,0,0,0,0,0,N,A,0,0,0
+1179941,Race,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,1,0,0,0,0,N,A,0,0,0
+1179945,Ethnicity,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,1,0,0,0,N,A,0,0,0
+1179949,Race * Ethnicity,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,1,1,0,0,0,N,A,0,0,0
+1179953,Education,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,0,1,0,0,N,A,0,0,0
+1179954,Sex * Education,Ownership * State * NAICS Industry,,0,0,0,1,S,5,1,1,0,0,0,1,0,0,N,A,0,0,0
+1180001,,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,0,0,1,0,N,A,0,0,0
+1180002,Sex,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,1,0,0,0,0,1,0,N,A,0,0,0
+1180003,Age,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,0,1,0,0,0,1,0,N,A,0,0,0
+1180004,Sex * Age,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,1,1,0,0,0,1,0,N,A,0,0,0
+1180005,Race,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,1,0,0,1,0,N,A,0,0,0
+1180009,Ethnicity,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,1,0,1,0,N,A,0,0,0
+1180013,Race * Ethnicity,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,1,1,0,1,0,N,A,0,0,0
+1180017,Education,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,0,1,1,0,N,A,0,0,0
+1180018,Sex * Education,Ownership * Firm Age * State * NAICS Industry,,0,0,0,1,S,5,1,1,0,0,0,1,1,0,N,A,0,0,0
+1180065,,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,0,0,0,1,N,A,0,0,0
+1180066,Sex,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,1,0,0,0,0,0,1,N,A,0,0,0
+1180067,Age,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,0,1,0,0,0,0,1,N,A,0,0,0
+1180068,Sex * Age,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,1,1,0,0,0,0,1,N,A,0,0,0
+1180069,Race,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,1,0,0,0,1,N,A,0,0,0
+1180073,Ethnicity,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,1,0,0,1,N,A,0,0,0
+1180077,Race * Ethnicity,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,1,1,0,0,1,N,A,0,0,0
+1180081,Education,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,0,0,0,0,1,0,1,N,A,0,0,0
+1180082,Sex * Education,Ownership * Firm Size * State * NAICS Industry,,0,0,0,1,S,5,1,1,0,0,0,1,0,1,N,A,0,0,0
+1181441,,State * National Industry,,0,0,0,1,S,6,0,0,0,0,0,0,0,0,N,A,0,0,0
+1181442,Sex,State * National Industry,,0,0,0,1,S,6,0,1,0,0,0,0,0,0,N,A,0,0,0
+1181443,Age,State * National Industry,,0,0,0,1,S,6,0,0,1,0,0,0,0,0,N,A,0,0,0
+1181444,Sex * Age,State * National Industry,,0,0,0,1,S,6,0,1,1,0,0,0,0,0,N,A,0,0,0
+1181445,Race,State * National Industry,,0,0,0,1,S,6,0,0,0,1,0,0,0,0,N,A,0,0,0
+1181449,Ethnicity,State * National Industry,,0,0,0,1,S,6,0,0,0,0,1,0,0,0,N,A,0,0,0
+1181453,Race * Ethnicity,State * National Industry,,0,0,0,1,S,6,0,0,0,1,1,0,0,0,N,A,0,0,0
+1181457,Education,State * National Industry,,0,0,0,1,S,6,0,0,0,0,0,1,0,0,N,A,0,0,0
+1181458,Sex * Education,State * National Industry,,0,0,0,1,S,6,0,1,0,0,0,1,0,0,N,A,0,0,0
+1181473,,Ownership * State * National Industry,,0,0,0,1,S,6,1,0,0,0,0,0,0,0,N,A,0,0,0
+1181474,Sex,Ownership * State * National Industry,,0,0,0,1,S,6,1,1,0,0,0,0,0,0,N,A,0,0,0
+1181475,Age,Ownership * State * National Industry,,0,0,0,1,S,6,1,0,1,0,0,0,0,0,N,A,0,0,0
+1181476,Sex * Age,Ownership * State * National Industry,,0,0,0,1,S,6,1,1,1,0,0,0,0,0,N,A,0,0,0
+1181477,Race,Ownership * State * National Industry,,0,0,0,1,S,6,1,0,0,1,0,0,0,0,N,A,0,0,0
+1181481,Ethnicity,Ownership * State * National Industry,,0,0,0,1,S,6,1,0,0,0,1,0,0,0,N,A,0,0,0
+1181485,Race * Ethnicity,Ownership * State * National Industry,,0,0,0,1,S,6,1,0,0,1,1,0,0,0,N,A,0,0,0
+1181489,Education,Ownership * State * National Industry,,0,0,0,1,S,6,1,0,0,0,0,1,0,0,N,A,0,0,0
+1181490,Sex * Education,Ownership * State * National Industry,,0,0,0,1,S,6,1,1,0,0,0,1,0,0,N,A,0,0,0
+1181537,,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,0,0,0,0,0,1,0,N,A,0,0,0
+1181538,Sex,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,1,0,0,0,0,1,0,N,A,0,0,0
+1181539,Age,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,0,1,0,0,0,1,0,N,A,0,0,0
+1181540,Sex * Age,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,1,1,0,0,0,1,0,N,A,0,0,0
+1181541,Race,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,0,0,1,0,0,1,0,N,A,0,0,0
+1181545,Ethnicity,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,0,0,0,1,0,1,0,N,A,0,0,0
+1181549,Race * Ethnicity,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,0,0,1,1,0,1,0,N,A,0,0,0
+1181553,Education,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,0,0,0,0,1,1,0,N,A,0,0,0
+1181554,Sex * Education,Ownership * Firm Age * State * National Industry,,0,0,0,1,S,6,1,1,0,0,0,1,1,0,N,A,0,0,0
+1181601,,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,0,0,0,0,0,0,1,N,A,0,0,0
+1181602,Sex,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,1,0,0,0,0,0,1,N,A,0,0,0
+1181603,Age,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,0,1,0,0,0,0,1,N,A,0,0,0
+1181604,Sex * Age,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,1,1,0,0,0,0,1,N,A,0,0,0
+1181605,Race,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,0,0,1,0,0,0,1,N,A,0,0,0
+1181609,Ethnicity,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,0,0,0,1,0,0,1,N,A,0,0,0
+1181613,Race * Ethnicity,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,0,0,1,1,0,0,1,N,A,0,0,0
+1181617,Education,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,0,0,0,0,1,0,1,N,A,0,0,0
+1181618,Sex * Education,Ownership * Firm Size * State * National Industry,,0,0,0,1,S,6,1,1,0,0,0,1,0,1,N,A,0,0,0

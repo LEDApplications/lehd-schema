@@ -691,15 +691,17 @@ WY,S C W M,link:label_geography_wy.csv[]
 
 === Aggregation Level
 
-==== J2J
+==== J2J/QWI
 
 ( link:label_agg_level.csv[] )
 
 Measures within the J2J and QWI data products are tabulated on many dimensions, including demographic characteristics, geography, industry, and other firm characteristics.
-For Origin-Destination (O-D) tables, characteristics of the origin and destination firm can be tabulated separately.
-Every tabulation level is assigned a unique aggregation index, represented by the agg_level variable.
+Every tabulation level is assigned a unique aggregation index, represented by the agg_level variable. The aggregation levels and characteristics are consistent acros
+both data products, with flags provided to indicate which of the products include include tabulation.
 This index starts from 1, representing a national level grand total (all industries, workers, etc.), and progresses through different combinations of characteristics.
 There are gaps in the progression to leave space for aggregation levels that may be included in future data releases.
+
+For Origin-Destination (O-D) tables in the J2J data product, characteristics of the origin firm are presented as separate tabulation variables, and the primary firm variables can be interpreted as the destination firm.
 
 The following variables are included in the link:label_agg_level.csv[label_agg_level.csv]   file:
 
@@ -710,11 +712,12 @@ include::variables_agg_level.csv[]
 
 The characteristics available on an aggregation level are repeated using a series of flags following the standard schema:
 
-- <<CIP Levels,cip_level>> - degree field reporting level of table
-- <<Institution Levels,inst_level>> - institution reporting level of table
-- <<Geographic Levels,geo_level>> - geographic level of table
-- <<ind_level,ind_level>> - industry level of table
-- by_ variables - flags indicating other dimensions reported, including ownership, demographics, firm age and size.
+* <<CIP Levels,cip_level>> - degree field reporting level of table
+* <<Institution Levels,inst_level>> - institution reporting level of table
+* <<Geographic Levels,geo_level>> - geographic level of table
+* <<ind_level,ind_level>> - industry level of table
+* Data product flags - indicators that aggregation level is included in a data product (*j2j*, *j2jr*, *j2jod*, *qwi*)
+* by_ variables - flags indicating other dimensions reported, including ownership, demographics, firm age and size.
 
 A shortened representation of the file is provided below, the complete file is available in the link above.
 
@@ -771,10 +774,6 @@ include::label_agg_level_pseo.csv[lines=25;]
 
 Earnings estimates and counts are provided only at the 2-digit CIP level for Masters and Doctor Research programs (degree levels 07 and 17).
 Records are included for 4-digit programs observed, but all measures are suppressed.
-
-==== QWI
-
-Aggregation level to be added to QWI in a future release
 
 
 <<<
