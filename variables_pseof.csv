@@ -1,0 +1,10 @@
+Indicator Variable,Alternate Name,Status Flag,Indicator Name,Description,Units,Concept,Base
+y1_grads_emp,y1_grads_emp,status_y1_grads_emp,Graduates Employed in Year 1,Count of Employed Graduates in Year 1,Count,Employment,1
+y1_grads_emp_instate,y1_grads_emp_instate,status_y1_grads_emp_instate,Graduates Employed In-State in Year 1,Count of Graduates Employed in Same State as Educational Institution in Year 1,Count,Employment,1
+y5_grads_emp,y5_grads_emp,status_y5_grads_emp,Graduates Employed in Year 5,Count of Employed Graduates in Year 5,Count,Employment,1
+y5_grads_emp_instate,y5_grads_emp_instate,status_y5_grads_emp_instate,Graduates Employed In-State in Year 5,Count of Graduates Employed in Same State as Educational Institution in Year 5,Count,Employment,1
+y10_grads_emp,y10_grads_emp,status_y10_grads_emp,Graduates Employed in Year 10,Count of Employed Graduates in Year 10,Count,Employment,1
+y10_grads_emp_instate,y10_grads_emp_instate,status_y10_grads_emp_instate,Graduates Employed In-State in Year 10,Count of Graduates Employed in Same State as Educational Institution in Year 10,Count,Employment,1
+y1_grads_nme,y1_grads_nme,status_y1_grads_nme,Graduates Jobless or Marginally Employed in Year 1,Count of Graduates Jobless or Marginally Employed in Year 1,Count,Employment,1
+y5_grads_nme,y5_grads_nme,status_y5_grads_nme,Graduates Jobless or Marginally Employed in Year 5,Count of Graduates Jobless or Marginally Employed in Year 5,Count,Employment,1
+y10_grads_nme,y10_grads_nme,status_y10_grads_nme,Graduates Jobless or Marginally Employed in Year 1,Count of Graduates Jobless or Marginally Employed in Year 10,Count,Employment,1
