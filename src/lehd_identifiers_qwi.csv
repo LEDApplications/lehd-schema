@@ -15,3 +15,4 @@ firmage,Char(1),Group: Firm Age group
 firmsize,Char(1),Group: Firm Size group
 year,Num,Time: Year
 quarter,Num,Time: Quarter
+agg_level,Num,Aggregation Level Indicator
