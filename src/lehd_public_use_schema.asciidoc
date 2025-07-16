@@ -696,7 +696,7 @@ WY,S C W M,link:label_geography_wy.csv[]
 ( link:label_agg_level.csv[] )
 
 Measures within the J2J and QWI data products are tabulated on many dimensions, including demographic characteristics, geography, industry, and other firm characteristics.
-Every tabulation level is assigned a unique aggregation index, represented by the agg_level variable. The aggregation levels and characteristics are consistent acros
+Every tabulation level is assigned a unique aggregation index, represented by the agg_level variable. The aggregation levels and characteristics are consistent across
 both data products, with flags provided to indicate which of the products include include tabulation.
 This index starts from 1, representing a national level grand total (all industries, workers, etc.), and progresses through different combinations of characteristics.
 There are gaps in the progression to leave space for aggregation levels that may be included in future data releases.
