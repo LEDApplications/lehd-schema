@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Location of this script
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
 
@@ -110,6 +112,7 @@ asciidoctor -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
   -a schemaversion=$version \
   -a outfilesuffix=.html \
   -o "${destination_dir}/lehd_public_use_schema.html" \
+  --trace \
   lehd_public_use_schema.asciidoc
 
 #asciidoctor -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
@@ -126,6 +129,7 @@ asciidoctor -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
   -a schemaversion=$version \
   -a outfilesuffix=.html \
   -o "${destination_dir}/lehd_csv_naming.html" \
+  --trace \
   lehd_csv_naming.asciidoc
 
 # generate shapefiles doc
@@ -135,6 +139,7 @@ asciidoctor -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
   -a schemaversion=$version \
   -a outfilesuffix=.html \
   -o "${destination_dir}/lehd_shapefiles.html" \
+  --trace \
   lehd_shapefiles.asciidoc
 
 # generate changelog
@@ -144,6 +149,7 @@ asciidoctor -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
   -a schemaversion=$version \
   -a outfilesuffix=.html \
   -o "${destination_dir}/lehd_changelog.html" \
+  --trace \
   lehd_changelog.asciidoc
 
 # generate PDF versions
