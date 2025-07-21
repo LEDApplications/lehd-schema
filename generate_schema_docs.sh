@@ -157,6 +157,7 @@ if [ "$generate_pdf" = true ] ; then
   asciidoctor-pdf -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
     -a schemaversion=$version \
     -o "${destination_dir}/lehd_public_use_schema.pdf" \
+    --trace \
     lehd_public_use_schema.asciidoc
 
 #  asciidoctor-pdf -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
@@ -167,16 +168,19 @@ if [ "$generate_pdf" = true ] ; then
   asciidoctor-pdf -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
     -a schemaversion=$version \
     -o "${destination_dir}/lehd_csv_naming.pdf" \
+    --trace \
     lehd_csv_naming.asciidoc
 
   asciidoctor-pdf -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
     -a schemaversion=$version \
     -o "${destination_dir}/lehd_shapefiles.pdf" \
+    --trace \
     lehd_shapefiles.asciidoc
 
   asciidoctor-pdf -r "${lib_dir}/csvsubcolumn-include-processor.rb" \
     -a schemaversion=$version \
     -o "${destination_dir}/lehd_changelog.pdf" \
+    --trace \
     lehd_changelog.asciidoc
 fi
 
