@@ -1,11 +1,10 @@
 # Previous Instructions
 
-How to build older versions of this schema. 
+How to build older versions of this schema.
 
 ## Build an earlier version of the schema
 
 > Earlier iterations of this schema do not contain these instructions. Either open this doc in a web browser or clone the repo and work from the copy.
-
 
 ```shell
 # list the available tags
