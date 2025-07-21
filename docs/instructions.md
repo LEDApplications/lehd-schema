@@ -14,6 +14,9 @@ How to build the docs.
     # install packages
     gem install asciidoctor
     gem install asciidoctor-pdf
+
+    # csv is not part of the default gems starting from Ruby 3.4.0.
+    gem install csv 
     ```
 
 2. Load the schema version from the environment variable
