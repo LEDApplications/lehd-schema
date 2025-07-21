@@ -20,7 +20,7 @@ jobs:
 
       - name: Build docs
         id: adocbuild
-        uses: tonynv/asciidoctor-action@master
+        uses: LEDApplications/asciidoctor-action@master
         with:
           program: "./generate_schema_docs.sh -v ${{ env.SCHEMA_VERSION }}"
 
