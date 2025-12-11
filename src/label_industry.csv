@@ -1,7 +1,9 @@
-﻿industry,label,ind_level
+industry,label,ind_level
 00,"All NAICS Sectors",A
 000,"All NAICS Subsectors",A
 0000,"All NAICS Industry Groups",A
+00000,"All NAICS Industries",A
+000000,"All NAICS National Industries",A
 11,"Agriculture, Forestry, Fishing and Hunting",S
 111,"Crop Production",3
 1111,"Oilseed and Grain Farming",4
