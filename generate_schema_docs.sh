@@ -60,6 +60,96 @@ source_dir=${SCRIPT_DIR}/src
 destination_dir=${SCRIPT_DIR}/dist
 lib_dir=${SCRIPT_DIR}/lib
 
+# Validate that there are no "bad" characters in the src csv files
+# Source: 
+# https://github.com/WengerK/vscode-highlight-bad-chars/blob/master/src/bad-characters.ts 
+#
+# Cannot check for \u characters directly in bash grep, so only check for \x
+# grep: PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u
+
+bad_chars=(
+    # https://github.com/possan/sublime_unicode_nbsp/blob/master/sublime_unicode_nbsp.py
+    '\x82' # High code comma
+    '\x84' # High code double comma
+    '\x85' # Triple dot
+    '\x88' # High carat
+    '\x91' # Forward single quote
+    '\x92' # Reverse single quote
+    '\x93' # Forward double quote
+    '\x94' # Reverse double quote
+    '\x95' # <control> Message Waiting
+    '\x96' # High hyphen
+    '\x97' # Double hyphen
+    '\x99' # <control>
+    '\xA0' # No-break space
+    '\xA6' # Split vertical bar
+    '\xAB' # Double less than
+    '\xBB' # Double greater than
+    '\xBC' # one quarter
+    '\xBD' # one half
+    '\xBE' # three quarters
+    '\xBF' # c-single quote
+    '\xA8' # modifier - under curve
+    '\xB1' # modifier - under line
+    '\x00' # NUL
+
+    # control characters
+    '\x01' # SOH
+    '\x02' # STX
+    '\x03' # ETX
+    '\x04' # EOT
+    '\x05' # ENQ
+    '\x06' # ACK
+    '\x07' # BEL
+    '\x08' # BS
+    '\x0B' # VT
+    '\x0C' # FF
+    '\x0E' # SO
+    '\x0F' # SI
+    '\x10' # DLE
+    '\x11' # DC1
+    '\x12' # DC2
+    '\x13' # DC3
+    '\x14' # DC4
+    '\x15' # NAK
+    '\x16' # SYN
+    '\x17' # ETB
+    '\x18' # CAN
+    '\x19' # EM
+    '\x1A' # SUB
+    '\x1B' # ESC
+    '\x1C' # FS
+    '\x1D' # GS
+    '\x1E' # RS
+    '\x1F' # US
+    '\x7F' # DEL
+)
+ 
+# Generate the pattern for grep by concatenating the array elements
+pattern=$(printf '[%s]' "$(IFS=; echo "${bad_chars[*]}")")
+
+# List of files with bad characters
+badfiles=""
+
+for file in "$source_dir"/*.csv; do
+  count=$(grep -oP "$pattern" "$file" | wc -l)
+
+  # Output the result
+  if [ "$count" -gt 0 ]; then
+    # echo "Error: $count bad characters found in $file"
+    badfiles="$badfiles $file"
+  fi
+done
+
+if [ -n "$badfiles" ]; then
+  echo "Error: Bad characters detected"
+  echo "Please remove bad characters from these files and try again."
+  for f in $badfiles; do
+    echo "  $f"
+  done
+  exit 1
+fi
+
 # clean create output folder
 rm -rf "$destination_dir"
 mkdir "$destination_dir"
