@@ -138,10 +138,10 @@ industry,label,ind_level
 21,"Mining, Quarrying, and Oil and Gas Extraction",S
 211,"Oil and Gas Extraction",3
 2111,"Oil and Gas Extraction",4
-21112,"Crude Petroleum Extraction",5
-211120,"Crude Petroleum Extraction",6
-21113,"Natural Gas Extraction",5
-211130,"Natural Gas Extraction",6
+21112,"Crude Petroleum Extraction ",5
+211120,"Crude Petroleum Extraction ",6
+21113,"Natural Gas Extraction ",5
+211130,"Natural Gas Extraction ",6
 212,"Mining (except Oil and Gas)",3
 2121,"Coal Mining",4
 21211,"Coal Mining",5
