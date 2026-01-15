@@ -1,4 +1,4 @@
-﻿agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_level,by_ownercode,by_sex,by_agegrp,by_race,by_ethnicity,by_education,by_firmage,by_firmsize,geo_level_orig,ind_level_orig,by_ownercode_orig,by_firmage_orig,by_firmsize_orig
+agg_level,worker_char,firm_char,firm_orig_char,j2j,j2jr,j2jod,qwi,geo_level,ind_level,by_ownercode,by_sex,by_agegrp,by_race,by_ethnicity,by_education,by_firmage,by_firmsize,geo_level_orig,ind_level_orig,by_ownercode_orig,by_firmage_orig,by_firmsize_orig
 1,,,,1,1,1,0,N,A,0,0,0,0,0,0,0,0,N,A,0,0,0
 2,Sex,,,1,1,1,0,N,A,0,1,0,0,0,0,0,0,N,A,0,0,0
 3,Age,,,1,1,1,0,N,A,0,0,1,0,0,0,0,0,N,A,0,0,0
