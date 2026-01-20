@@ -49,7 +49,7 @@ The following major transformations are applied to the input files:
 
 == Outputs
 
-Output shapefiles – grouped by paired products – are listed below.Each shapefile includes specific notes on its preparation.
+Output shapefiles - grouped by paired products - are listed below.Each shapefile includes specific notes on its preparation.
 
 == Basic Naming Schema
 
