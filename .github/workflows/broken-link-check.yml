@@ -23,7 +23,7 @@ jobs:
         with:
           url: 'https://ledapplications.github.io/lehd-schema/lehd_public_use_schema.html'
           honorRobotExclusions: true
-          ignorePatterns: ''
+          ignorePatterns: 'https://www.census.gov/naics/'
           recursiveLinks: false
 
       - name: CSV Naming Link Check
@@ -43,5 +43,5 @@ jobs:
         with:
           url: 'https://ledapplications.github.io/lehd-schema/lehd_shapefiles.html'
           honorRobotExclusions: true
-          ignorePatterns: 'https://ledapplications.github.io/lehd-schema/lehd_shp_*.zip,https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml,https://www.census.gov/naics/'
+          ignorePatterns: 'https://ledapplications.github.io/lehd-schema/lehd_shp_*.zip,https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml'
           recursiveLinks: false
