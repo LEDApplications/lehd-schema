@@ -1,0 +1,5 @@
+variable,type,label
+﻿institution,Char(8),Identifier for Institution (OPEID)
+label,Char(70),Name of Institution
+institution_state,Char(2),Institution State (Postal Code)
+statefips,Char(2),Institution State (Numeric FIPS Code)
