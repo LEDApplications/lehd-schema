@@ -15,6 +15,10 @@ Feedback is welcome.
 Please write us at link:mailto:ces.qwi.feedback@census.gov?subject=LEHD_Schema[ces.qwi.feedback@census.gov].
 ==============================================
 
+== V4.14.0
+
+- Updated to 2025 geography - shapefiles and labels
+
 == V4.13.0
 
 - Added agg_level variable to QWI, added QWI aggregation levels
