@@ -28,13 +28,13 @@ New TIGER/Line shapefiles are typically released by the Census Bureau's Geograph
 
 == Sources
 
-Files are derived from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2024.html[TIGER/Line 2024 shapefiles]:
+Files are derived from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2025.html[TIGER/Line 2025 shapefiles]:
 
-* https://www2.census.gov/geo/tiger/TIGER2024/STATE/[tl_2024_us_state]
-* https://www2.census.gov/geo/tiger/TIGER2024/COUNTY/[tl_2024_us_county]
-* https://www2.census.gov/geo/tiger/TIGER2024/CBSA/[tl_2024_us_cbsa]
-* https://www2.census.gov/geo/tiger/TIGER2024/PLACE/[tl_2024_(ST)_place]  (for creation of WIA/WIB shapefile)
-* https://www2.census.gov/geo/tiger/TIGER2024/COUSUB/[tl_2024_(ST)_cousub] (for creation of WIA/WIB shapefile)
+* https://www2.census.gov/geo/tiger/TIGER2025/STATE/[tl_2025_us_state]
+* https://www2.census.gov/geo/tiger/TIGER2025/COUNTY/[tl_2025_us_county]
+* https://www2.census.gov/geo/tiger/TIGER2025/CBSA/[tl_2025_us_cbsa]
+* https://www2.census.gov/geo/tiger/TIGER2025/PLACE/[tl_2025_(ST)_place]  (for creation of WIA/WIB shapefile)
+* https://www2.census.gov/geo/tiger/TIGER2025/COUSUB/[tl-2025_(ST)_cousub] (for creation of WIA/WIB shapefile)
 
 == Transformations
 
@@ -49,7 +49,7 @@ The following major transformations are applied to the input files:
 
 == Outputs
 
-Output shapefiles – grouped by paired products – are listed below.Each shapefile includes specific notes on its preparation.
+Output shapefiles - grouped by paired products - are listed below.Each shapefile includes specific notes on its preparation.
 
 == Basic Naming Schema
 
