@@ -1,4 +1,4 @@
-institution,label,city,institution_state,inst_level,statefips
+﻿institution,label,city,institution_state,inst_level,statefips
 1,Institutions in New England Division,,,D,
 2,Institutions in Middle Atlantic Division,,,D,
 3,Institutions in East North Central Division,,,D,
@@ -13048,7 +13048,7 @@ institution,label,city,institution_state,inst_level,statefips
 00260408,Fairleigh Dickinson Univ Ft Monmouth Programs Extension,Ft Monmouth,NJ,I,34
 00260500,Fairleigh Dickinson University Edward Williams College,Hackensack,NJ,I,34
 00260600,Fairleigh Dickinson Univ Florham-Madsn,Morristown,NJ,I,34
-00260700,Fairleigh Dickinson University,Teaneck,NJ,I,34
+00260700,Fairleigh Dickinson University - Metro Campus,Teaneck,NJ,I,34
 00260701,Fairleigh Dickinson University - Florham Campus,Madison,NJ,I,34
 00260702,Fairleigh Dickinson University - Metropolitan Campus,Teaneck,NJ,I,34
 00260703,Fairleigh Dickinson University - Monmouth County Graduate Center,Eatontown,NJ,I,34
@@ -13210,7 +13210,7 @@ institution,label,city,institution_state,inst_level,statefips
 00262806,Rider University - Bank of America,Pennington,NJ,I,34
 00262807,Rider University - Ewing Township Board of Education,Ewing,NJ,I,34
 00262808,Rider University - Bancroft,Mount Laurel,NJ,I,34
-00262900,"Rutgers, the State University of New Jersey",New Brunswick,NJ,I,34
+00262900,"Rutgers, the State University of New Jersey - New Brunswick Campus",New Brunswick,NJ,I,34
 00262901,"Rutgers, the State University of New Jersey - Camden Campus",Camden,NJ,I,34
 00262902,"Rutgers, the State University of New Jersey - Newark Campus",Newark,NJ,I,34
 00262903,Rutgers the State University of New Jersey - New Brunswick Campus,New Brunswick,NJ,I,34
@@ -13420,10 +13420,10 @@ institution,label,city,institution_state,inst_level,statefips
 00266101,Branch Campus Location,Roswell,NM,I,35
 00266200,University of Albuquerque,Albuquerque,NM,I,35
 00266300,University of New Mexico,Albuquerque,NM,I,35
-00266301,University of New Mexico,Gallup,NM,I,35
-00266302,University of New Mexico,Los Lunas,NM,I,35
-00266303,University of New Mexico,Los Alamos,NM,I,35
-00266304,University of New Mexico,Taos,NM,I,35
+00266301,University of New Mexico - Gallup,Gallup,NM,I,35
+00266302,University of New Mexico - Valencia,Los Lunas,NM,I,35
+00266303,University of New Mexico - Los Alamos,Los Alamos,NM,I,35
+00266304,University of New Mexico - Taos,Taos,NM,I,35
 00266305,University of New Mexico,Albuquerque,NM,I,35
 00266400,Western New Mexico University,Silver City,NM,I,35
 00266401,Western New Mexico University - Truth or Consequences Education Center,Truth or Consequences,NM,I,35
@@ -18668,7 +18668,7 @@ institution,label,city,institution_state,inst_level,statefips
 00352803,Union University - Hendersonville,Hendersonville,TN,I,47
 00352804,Union University - MCUTS,Memphis,TN,I,47
 00352900,University of Tennessee - Chattanooga,Chattanooga,TN,I,47
-00353000,University of Tennessee,Knoxville,TN,I,47
+00353000,University of Tennessee - Knoxville,Knoxville,TN,I,47
 00353001,University of Tennessee - Tullahoma,Tullahoma,TN,I,47
 00353002,University of Tennessee  -  Kingsport Campus,Kingsport,TN,I,47
 00353003,University of Tennessee - Oak Ridge Campus,Oak Ridge,TN,I,47
@@ -26375,11 +26375,11 @@ institution,label,city,institution_state,inst_level,statefips
 00689510,University of Nebraska Medical Center - Munroe-Meyer Institute,Omaha,NE,I,31
 00689511,University of Nebraska Medical Center - University of Nebraska Lincoln,Lincoln,NE,I,31
 00689512,University of Nebraska Medical Center - University of Nebraska Omaha,Omaha,NE,I,31
-00690100,Rowan College of South Jersey,Sewell,NJ,I,34
+00690100,Rowan College of South Jersey - Gloucester County,Sewell,NJ,I,34
 00690101,Gloucester County College - Human Resource and Economic Development Cn,Bridgeport,NJ,I,34
 00690102,Rowan College at Gloucester County - Continuing Education Center,Sewell,NJ,I,34
 00690103,Rowan College at Gloucester County - Bozorth Hall,Glassboro,NJ,I,34
-00690104,Rowan College at Gloucester County - Cumberland County Campus,Vineland,NJ,I,34
+00690104,Rowan College of South Jersey - Cumberland County,Vineland,NJ,I,34
 00690400,Long Island University General Ext,Greenvale,NY,I,36
 00690500,Eastern Maine Medical Center School Medical-Technical,Bangor,ME,I,23
 00690600,St Elizabeth's Hospital School of Nursing,Brighton,MA,I,25
@@ -36170,7 +36170,7 @@ institution,label,city,institution_state,inst_level,statefips
 02053302,Centro De Estudios Universitarios Xochicalco - Mexicali,Mexicali,,I,
 02053303,Centro De Estudios Universitarios Xochicalco -,Mexicali,,I,
 02053600,American Technical Center,Salt Lake City,UT,I,49
-02053700,Eastwick College,Ramsey,NJ,I,34
+02053700,Eastwick College - Ramsey Campus,Ramsey,NJ,I,34
 02054200,Dawson College,Westmount,,I,
 02054300,Trumbull Business College,Warren,OH,I,39
 02054400,Manley L Cummins School of Nursing,Dothan,AL,I,01
