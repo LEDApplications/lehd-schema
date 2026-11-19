@@ -34,7 +34,7 @@ Files are derived from https://www.census.gov/geographies/mapping-files/time-ser
 * https://www2.census.gov/geo/tiger/TIGER2025/COUNTY/[tl_2025_us_county]
 * https://www2.census.gov/geo/tiger/TIGER2025/CBSA/[tl_2025_us_cbsa]
 * https://www2.census.gov/geo/tiger/TIGER2025/PLACE/[tl_2025_(ST)_place]  (for creation of WIA/WIB shapefile)
-* https://www2.census.gov/geo/tiger/TIGER2025/COUSUB/[tl-2025_(ST)_cousub] (for creation of WIA/WIB shapefile)
+* https://www2.census.gov/geo/tiger/TIGER2025/COUSUB/[tl_2025_(ST)_cousub] (for creation of WIA/WIB shapefile)
 
 == Transformations
 
